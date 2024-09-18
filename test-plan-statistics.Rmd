@@ -1,0 +1,58 @@
+---
+title: "Gráficos de pruebas piloto"
+output: 
+  html_notebook: 
+    toc: true
+---
+
+# Carga de datos
+```{r}
+request_data <- read.csv(file = "./test-plan-data")
+```
+
+Variables globales.
+```{r}
+request_count <- length(request_data$timeStamp)
+```
+
+
+Filtramos por peticiones exitosas y fallidas.
+```{r}
+successful_requests <- subset(request_data, responseCode == 200)
+failed_requests <- subset(request_data, !(responseCode == 200))
+```
+
+
+# Gráficos
+
+## Barras
+
+```{r}
+status_codes <- sort(table(request_data$responseCode), decreasing = TRUE)
+
+barplot(status_codes,
+        ylim = c(0, request_count),
+        col = "lightskyblue")
+```
+
+
+## Histogramas
+
+```{r}
+hist(successful_requests$Latency,
+     col = "lightgreen")
+
+hist(failed_requests$Latency,
+     col = "red")
+```
+
+## Cajas
+
+```{r}
+boxplot(successful_requests$Latency,
+        col = "lightgreen")
+
+boxplot(failed_requests$Latency,
+        col = "red")
+```
+
