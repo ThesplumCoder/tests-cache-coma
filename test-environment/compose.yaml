@@ -1,0 +1,21 @@
+services:
+  coma-apache-tomcat-9:
+    image: "tomcat:9.0.95-jdk21"
+    ports: 
+      - "9080:8080"
+    volumes:
+      - tomcat-data:/usr/local/tomcat
+
+  coma-mysql-5:
+    image: "mysql:5.7.44"
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 1111
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data: 
+  tomcat-data:
