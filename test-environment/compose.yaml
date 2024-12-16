@@ -14,8 +14,10 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 1111
     volumes:
+      - mysql-config:/etc
       - mysql-data:/var/lib/mysql
 
 volumes:
+  mysql-config:
   mysql-data: 
   tomcat-data:

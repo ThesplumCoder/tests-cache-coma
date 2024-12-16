@@ -33,3 +33,23 @@ debe revisar la ruta donde está montado el volumen del contenedor.
 6. Restauramos las bases de datos del contenedor de BD.
 
 7. Nos conectamos a [Tomcat local](http://localhost:9080/).
+
+## Copiar datos del esquema de rendimiento
+
+Debemos asegurarnos que esté activo.
+```SQL
+SHOW VARIABLES LIKE 'performance_schema';
+```
+
+Si está `OFF` entonces debemos configurar la opción en `/etc/mysql/my.cnf`, 
+después debemos reiniciar el servidor:
+```
+[mysqld]
+performance_schema=ON
+```
+
+Para hacer la copia:
+```
+mysqldump -u root -p performance_schema > no-cache-data.sql
+```
+
