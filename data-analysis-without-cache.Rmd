@@ -1,0 +1,62 @@
+---
+title: "Análisis de Datos de Rendimiento sin Cache"
+author: "Anderson Acuña"
+date: "2024-12-15"
+output: 
+  html_document: 
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Extracción de datos
+
+La carga de datos se hace desde el archivo exportado por **DBeaver**, para la 
+tabla *events_statements_summary_by_digest* en la base de datos 
+*performance_schema*.
+```{r}
+data_perf_schema <- read.csv(file = "./data/events_statements_summary_by_digest_202412151135.csv")
+```
+
+Se hace la validación de significancia de los datos recolectados por el 
+*performance_schema*. Para este fin se observa cuánto porcentaje corresponde al 
+registro especial, caracterizado por `SCHEMA_NAME = NULL` y `DIGEST = NULL`.
+```{r}
+total_count <- sum(data_perf_schema$COUNT_STAR)
+special_row <- subset(data_perf_schema, SCHEMA_NAME == "" & DIGEST == "")
+other_statements <- subset(data_perf_schema, DIGEST != "")
+
+row_categories <- matrix(c(special_row$COUNT_STAR, sum(other_statements$COUNT_STAR)) / total_count, 
+                         ncol = 2)
+colnames(row_categories) <- c("Registro especial", "Otras sentencias")
+
+barplot(row_categories, 
+        ylim = c(0, 1), 
+        col = c("dodgerblue", "red"), 
+        main = "Validación de significancia", 
+        ylab = "Porcentaje")
+```
+
+# Exploración de datos
+
+Ordenamos los datos en forma descendente para los valores de **Tiempo de espera 
+promedio** (`AVG_TIMER_WAIT`) y **Conteo de veces** (`COUNT_STAR`).
+```{r}
+ordered_data_perf_schema <- data_perf_schema[order(data_perf_schema$COUNT_STAR, 
+                                                   data_perf_schema$AVG_TIMER_WAIT , 
+                                                   decreasing = TRUE), ]
+```
+
+
+
+
+```{r}
+hist(data_perf_schema$AVG_TIMER_WAIT, 
+     breaks = 30)
+
+boxplot(data_perf_schema$AVG_TIMER_WAIT, 
+        horizontal = TRUE)
+```
+
