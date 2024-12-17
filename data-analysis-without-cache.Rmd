@@ -61,11 +61,22 @@ division_queries <- queries_data[queries_data$STRUCTURE_BD == "division", ]
 
 barplot(sort(table(queries_data$SCHOOL), decreasing = TRUE), 
         las = 2, 
-        col = "coral")
+        col = "coral", 
+        main = "Consultas a bases de datos", 
+        xlab = "Escuela", 
+        ylab = "Cantidad")
 barplot(sort(table(diamond_queries$SCHOOL), decreasing = TRUE), 
-        las = 2)
+        las = 2, 
+        col = "dodgerblue", 
+        main = "Consultas a BDs Diamante", 
+        xlab = "Escuela", 
+        ylab = "Cantidad")
 barplot(sort(table(division_queries$SCHOOL), decreasing = TRUE), 
-        las = 2)
+        las = 2, 
+        col = "orange", 
+        main = "Consultas a BDs División", 
+        xlab = "Escuela", 
+        ylab = "Cantidad")
 ```
 
 
@@ -75,9 +86,13 @@ promedio** (`AVG_TIMER_WAIT`) y **Conteo de veces** (`COUNT_STAR`).
 ordered_queries_data <- queries_data[order(queries_data$COUNT_STAR, 
                                            queries_data$AVG_TIMER_WAIT, 
                                            decreasing = TRUE), ]
+unique_queries_data <- ordered_queries_data[!duplicated(ordered_queries_data$DIGEST), ]
 ```
 
 ```{r}
+plot(seq(to = 100), unique_queries_data$COUNT_STAR[1:100])
+plot(seq(to = 100), unique_queries_data$AVG_TIMER_WAIT[1:100])
+
 hist(ordered_queries_data$AVG_TIMER_WAIT, 
      breaks = 30)
 
