@@ -18,6 +18,12 @@ tabla *events_statements_summary_by_digest* en la base de datos
 *performance_schema*.
 ```{r}
 data_perf_schema <- read.csv(file = "./data/events_statements_summary_by_digest_202412151135.csv")
+
+schema_split <- strsplit(data_perf_schema$SCHEMA_NAME, split = "_")
+data_perf_schema$STRUCTURE_BD <- unlist(lapply(schema_split, function(x) { x[1] }))
+data_perf_schema <- data_perf_schema[, c("STRUCTURE_BD", setdiff(names(data_perf_schema), "STRUCTURE_BD"))]
+data_perf_schema$SCHOOL <- unlist(lapply(schema_split, function(x) { x[2] }))
+data_perf_schema <- data_perf_schema[, c("SCHOOL", setdiff(names(data_perf_schema), "SCHOOL"))]
 ```
 
 Se hace la validación de significancia de los datos recolectados por el 
@@ -39,24 +45,44 @@ barplot(row_categories,
         ylab = "Porcentaje")
 ```
 
+Se seleccionan los registros que se relacionan con consultas, es decir, los que 
+en la columna `DIGEST_TEXT` contengan la palabra clave `SELECT`.
+```{r}
+queries_data <- data_perf_schema[grepl("SELECT", data_perf_schema$DIGEST_TEXT), ]
+```
+
+
 # Exploración de datos
+
+Se observa la participación de cada escuela en la muestra.
+```{r}
+diamond_queries <- queries_data[queries_data$STRUCTURE_BD == "diamante", ]
+division_queries <- queries_data[queries_data$STRUCTURE_BD == "division", ]
+
+barplot(sort(table(queries_data$SCHOOL), decreasing = TRUE), 
+        las = 2, 
+        col = "coral")
+barplot(sort(table(diamond_queries$SCHOOL), decreasing = TRUE), 
+        las = 2)
+barplot(sort(table(division_queries$SCHOOL), decreasing = TRUE), 
+        las = 2)
+```
+
 
 Ordenamos los datos en forma descendente para los valores de **Tiempo de espera 
 promedio** (`AVG_TIMER_WAIT`) y **Conteo de veces** (`COUNT_STAR`).
 ```{r}
-ordered_data_perf_schema <- data_perf_schema[order(data_perf_schema$COUNT_STAR, 
-                                                   data_perf_schema$AVG_TIMER_WAIT , 
-                                                   decreasing = TRUE), ]
+ordered_queries_data <- queries_data[order(queries_data$COUNT_STAR, 
+                                           queries_data$AVG_TIMER_WAIT, 
+                                           decreasing = TRUE), ]
 ```
 
-
-
-
 ```{r}
-hist(data_perf_schema$AVG_TIMER_WAIT, 
+hist(ordered_queries_data$AVG_TIMER_WAIT, 
      breaks = 30)
 
-boxplot(data_perf_schema$AVG_TIMER_WAIT, 
+boxplot(ordered_queries_data$AVG_TIMER_WAIT, 
+        outline = FALSE, 
         horizontal = TRUE)
 ```
 
