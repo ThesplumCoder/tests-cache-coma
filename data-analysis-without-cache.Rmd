@@ -101,3 +101,18 @@ boxplot(ordered_queries_data$AVG_TIMER_WAIT,
         horizontal = TRUE)
 ```
 
+## Análisis individual de las consultas
+
+```{r}
+queries_tbmenu_prod <- read.csv(file = "./data/events_statements_history_long_202412181352.csv")
+queries_tbmenu_local <- read.csv(file = "./data/events_statements_history_long_202412181703.csv")
+```
+
+```{r}
+hist(queries_tbmenu_prod$TIMER_WAIT, 
+     breaks = 10)
+hist(queries_tbmenu_local$TIMER_WAIT, 
+     breaks = 10)
+```
+
+
