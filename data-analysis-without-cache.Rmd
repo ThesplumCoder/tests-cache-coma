@@ -83,20 +83,32 @@ barplot(sort(table(division_queries$SCHOOL), decreasing = TRUE),
 Ordenamos los datos en forma descendente para los valores de **Tiempo de espera 
 promedio** (`AVG_TIMER_WAIT`) y **Conteo de veces** (`COUNT_STAR`).
 ```{r}
-ordered_queries_data <- queries_data[order(queries_data$COUNT_STAR, 
-                                           queries_data$AVG_TIMER_WAIT, 
-                                           decreasing = TRUE), ]
-unique_queries_data <- ordered_queries_data[!duplicated(ordered_queries_data$DIGEST), ]
+ordered_count_star <- queries_data[order(queries_data$COUNT_STAR, 
+                                         decreasing = TRUE), ]
+ordered_avg_timer_wait <- queries_data[order(queries_data$AVG_TIMER_WAIT, 
+                                             decreasing = TRUE), ]
+# Remove duplicates.
+unique_count_star <- ordered_count_star[!duplicated(ordered_count_star$DIGEST), ]
+unique_avg_timer_wait <- ordered_avg_timer_wait[!duplicated(ordered_avg_timer_wait$DIGEST), ]
+
+# TOP
+top <- queries_data[intersect(rownames(unique_count_star[1:1000, ]), rownames(unique_avg_timer_wait[1:1000, ])), ]
 ```
 
+Exploramos cada columna de interés para observar sus parámetros estadísticos.
 ```{r}
-plot(seq(to = 100), unique_queries_data$COUNT_STAR[1:100])
-plot(seq(to = 100), unique_queries_data$AVG_TIMER_WAIT[1:100])
+hist(top$AVG_TIMER_WAIT)
+boxplot(top$AVG_TIMER_WAIT, 
+        outline = FALSE, 
+        horizontal = TRUE)
 
-hist(ordered_queries_data$AVG_TIMER_WAIT, 
-     breaks = 30)
+hist(top$COUNT_STAR)
+boxplot(top$COUNT_STAR, 
+        outline = FALSE, 
+        horizontal = TRUE)
 
-boxplot(ordered_queries_data$AVG_TIMER_WAIT, 
+hist(top$SUM_ROWS_SENT / top$COUNT_STAR)
+boxplot(top$SUM_ROWS_SENT / top$COUNT_STAR, 
         outline = FALSE, 
         horizontal = TRUE)
 ```
@@ -113,6 +125,10 @@ hist(queries_tbmenu_prod$TIMER_WAIT,
      breaks = 10)
 hist(queries_tbmenu_local$TIMER_WAIT, 
      breaks = 10)
+
+par(mfrow = c(1, 2))
+boxplot(queries_tbmenu_prod$TIMER_WAIT)
+boxplot(queries_tbmenu_local$TIMER_WAIT)
 ```
 
 
