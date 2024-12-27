@@ -116,19 +116,18 @@ boxplot(top$SUM_ROWS_SENT / top$COUNT_STAR,
 ## Análisis individual de las consultas
 
 ```{r}
-queries_tbmenu_prod <- read.csv(file = "./data/events_statements_history_long_202412181352.csv")
-queries_tbmenu_local <- read.csv(file = "./data/events_statements_history_long_202412181703.csv")
+querie1_tbmenu_prod <- read.csv(file = "./data/events_statements_history_long_202412181352.csv")
+querie1_tbmenu_local <- read.csv(file = "./data/events_statements_history_long_202412181703.csv")
+querie1_tbusuario_local <- read.csv(file = "./data/query-events_statements_history_long_202412262137.csv")
 ```
 
 ```{r}
-hist(queries_tbmenu_prod$TIMER_WAIT, 
-     breaks = 10)
-hist(queries_tbmenu_local$TIMER_WAIT, 
-     breaks = 10)
-
-par(mfrow = c(1, 2))
-boxplot(queries_tbmenu_prod$TIMER_WAIT)
-boxplot(queries_tbmenu_local$TIMER_WAIT)
+hist(querie1_tbusuario_local$TIMER_WAIT * 1e-12, 
+     breaks = 20)
+abline(v = 6806279000 * 1e-12)
+abline(v = mean(querie1_tbusuario_local$TIMER_WAIT * 1e-12), col = "coral")
+boxplot(querie1_tbusuario_local$TIMER_WAIT * 1e-12)
+summary(querie1_tbusuario_local$TIMER_WAIT * 1e-12)
 ```
 
 
