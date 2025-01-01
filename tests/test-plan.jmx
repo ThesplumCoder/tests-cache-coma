@@ -41,7 +41,10 @@
         <hashTree/>
         <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Consulta 1">
           <stringProp name="dataSource">local-mysql-5.7.44</stringProp>
-          <stringProp name="query">SELECT DISTINCTROW IdUsr FROM TP_Usuarios WHERE Identif = &apos;2035196&apos; AND IdCat IN (&apos;CT2&apos;, &apos;CT16&apos;);</stringProp>
+          <stringProp name="query">SELECT DISTINCTROW IdUsr 
+FROM TP_Usuarios 
+WHERE Identif = &apos;1100952919&apos; 
+AND IdCat IN (&apos;CT2&apos;, &apos;CT3&apos;);</stringProp>
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
           <stringProp name="queryTimeout"></stringProp>
@@ -52,7 +55,187 @@
           <stringProp name="variableNames"></stringProp>
         </JDBCSampler>
         <hashTree/>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Consulta 2" enabled="true">
+          <stringProp name="dataSource">local-mysql-5.7.44</stringProp>
+          <stringProp name="query">SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = &apos;1100952919&apos; 
+AND IdCat IN (&apos;CT2&apos;, &apos;CT3&apos;);</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Consulta 3">
+          <stringProp name="dataSource">local-mysql-5.7.44</stringProp>
+          <stringProp name="query">SELECT TP_Usuarios.IdUsr 
+FROM TP_Usuarios, TR_CodirectorTutorInterno 
+WHERE TR_CodirectorTutorInterno.IdUsr = TP_Usuarios.IdUsr 
+AND TR_CodirectorTutorInterno.Tipo = &apos;Tutor&apos; 
+AND TP_Usuarios.IdUsr = &apos;U10&apos; 
+AND TR_CodirectorTutorInterno.IdProyecto = &apos;PG57&apos;;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Consulta 4" enabled="true">
+          <stringProp name="dataSource">local-mysql-5.7.44</stringProp>
+          <stringProp name="query">SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = &apos;U7123&apos; 
+AND IdTaller = &apos;T20&apos; 
+AND IdGuionClase = &apos;GU69&apos;;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Consulta 5" enabled="true">
+          <stringProp name="dataSource">local-mysql-5.7.44</stringProp>
+          <stringProp name="query">SELECT TR_CodirectorTutorAutorExterno.IdExterno 
+FROM TR_CodirectorTutorAutorExterno , TP_Externos 
+WHERE TR_CodirectorTutorAutorExterno.IdProyecto = &apos;PG441&apos; 
+AND TR_CodirectorTutorAutorExterno.IdExterno = TP_Externos.IdExterno 
+AND TR_CodirectorTutorAutorExterno.IdExterno = &apos;XE112&apos; 
+AND TR_CodirectorTutorAutorExterno.Tipo = &apos;Autor&apos;;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Consulta 6">
+          <stringProp name="dataSource">local-mysql-5.7.44</stringProp>
+          <stringProp name="query">SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = &apos;U3107&apos; 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN (&apos;1&apos;, &apos;2&apos;) 
+AND IdProgramaAcademico = &apos;PA1&apos;
+);</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Consulta 7" enabled="true">
+          <stringProp name="dataSource">local-mysql-5.7.44</stringProp>
+          <stringProp name="query">SELECT IdGrupClase 
+FROM TR_CalifTalleres_Examenes 
+WHERE IdGuionClase = &apos;GU69&apos; 
+AND IdTaller = &apos;T22&apos; 
+AND IdGrupClase IN (
+SELECT DISTINCTROW TR_GrupClaseEst.IdGrupClase 
+FROM TR_GrupClaseEst, TR_GruposClase 
+WHERE TR_GruposClase.IdMat = &apos;22957&apos; 
+AND IdGuionClase = &apos;GU69&apos; 
+AND TR_GruposClase.IdGrupClase = TR_GrupClaseEst.IdGrupClase 
+AND TR_GrupClaseEst.IdUsr IN (
+SELECT IdUsr 
+FROM TR_GrupClaseEst 
+WHERE IdGrupClase = &apos;GC1150&apos;
+)
+)</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Consulta 8">
+          <stringProp name="dataSource">local-mysql-5.7.44</stringProp>
+          <stringProp name="query">SELECT Documento 
+FROM TB_Hojadevida 
+WHERE Tipo = &apos;Planta&apos; 
+AND Estado = &apos;ACTIVO&apos; 
+AND Documento = &apos;60391454&apos;;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Consulta 9">
+          <stringProp name="dataSource">local-mysql-5.7.44</stringProp>
+          <stringProp name="query">SELECT CONCAT(TP_Externos.PrimNomExt , &apos; &apos; , TP_Externos.SegNomExt , &apos; &apos; , TP_Externos.PrimApeExt , &apos; &apos; , TP_Externos.SegApeExt) AS Nombre 
+FROM TP_Externos, TR_CodirectorTutorAutorExterno 
+WHERE TP_Externos.IdExterno = TR_CodirectorTutorAutorExterno.IdExterno 
+AND IdProyecto = &apos;PG227&apos; 
+AND TR_CodirectorTutorAutorExterno.Tipo = &apos;Codirector&apos;;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Consulta 10">
+          <stringProp name="dataSource">local-mysql-5.7.44</stringProp>
+          <stringProp name="query">SELECT * 
+FROM TB_GrupoMenu 
+WHERE Estado = &apos;Activo&apos; 
+AND MenuPred = &apos;GM5&apos; 
+AND IdGrupMenu IN (
+SELECT IdGrupMenu 
+FROM TR_TipoGrupoMenu 
+WHERE IdTipoGrupo = &apos;TG11&apos;
+) 
+AND IdGrupMenu IN (
+SELECT IdGrupMenu 
+FROM TR_GrupoMenuProtegido 
+WHERE IdGrupo = &apos;G9&apos; 
+AND Protegido = &apos;True&apos;
+) 
+ORDER BY Peso ASC;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Vista árbol de resultados">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -89,7 +272,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="View Results in Table" enabled="true">
+        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="Vista tabla de resultados">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>

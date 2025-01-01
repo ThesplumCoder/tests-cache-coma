@@ -79,6 +79,11 @@ barplot(sort(table(division_queries$SCHOOL), decreasing = TRUE),
         ylab = "Cantidad")
 ```
 
+Sacamos los datos de la base de datos "división" ya que no corresponde a 
+interacciones de usuarios sino a procesos internos realizados por la plataforma.
+```{r}
+queries_data <- subset(queries_data, STRUCTURE_BD != "division")
+```
 
 Ordenamos los datos en forma descendente para los valores de **Tiempo de espera 
 promedio** (`AVG_TIMER_WAIT`) y **Conteo de veces** (`COUNT_STAR`).
@@ -93,6 +98,7 @@ unique_avg_timer_wait <- ordered_avg_timer_wait[!duplicated(ordered_avg_timer_wa
 
 # TOP
 top <- queries_data[intersect(rownames(unique_count_star[1:1000, ]), rownames(unique_avg_timer_wait[1:1000, ])), ]
+write.csv(top[1:20, c("DIGEST", "DIGEST_TEXT")], file = "./data/top20-queries.csv")
 ```
 
 Exploramos cada columna de interés para observar sus parámetros estadísticos.
@@ -116,8 +122,6 @@ boxplot(top$SUM_ROWS_SENT / top$COUNT_STAR,
 ## Análisis individual de las consultas
 
 ```{r}
-querie1_tbmenu_prod <- read.csv(file = "./data/events_statements_history_long_202412181352.csv")
-querie1_tbmenu_local <- read.csv(file = "./data/events_statements_history_long_202412181703.csv")
 querie1_tbusuario_local <- read.csv(file = "./data/query-events_statements_history_long_202412262137.csv")
 ```
 
