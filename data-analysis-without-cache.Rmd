@@ -121,17 +121,106 @@ boxplot(top$SUM_ROWS_SENT / top$COUNT_STAR,
 
 ## Análisis individual de las consultas
 
+Importamos las muestras de rendimiento que se produjeron al repetir un ejemplo 
+de cada una de las consultas del TOP.
 ```{r}
-querie1_tbusuario_local <- read.csv(file = "./data/query-events_statements_history_long_202412262137.csv")
+query1 <- read.csv(file = "./data/query1.csv")
+query2 <- read.csv(file = "./data/query2.csv")
+query3 <- read.csv(file = "./data/query3.csv")
+query4 <- read.csv(file = "./data/query4.csv")
+query5 <- read.csv(file = "./data/query5.csv")
+query6 <- read.csv(file = "./data/query6.csv")
+query7 <- read.csv(file = "./data/query7.csv")
+query8 <- read.csv(file = "./data/query8.csv")
+query9 <- read.csv(file = "./data/query9.csv")
+query10 <- read.csv(file = "./data/query10.csv")
+
+unit_miliseconds <- 1e-9
+unit_seconds <- 1e-12
+unit_graphs <- unit_miliseconds
 ```
 
+Definimos una función que nos permite graficar cada una de las muestras.
 ```{r}
-hist(querie1_tbusuario_local$TIMER_WAIT * 1e-12, 
-     breaks = 20)
-abline(v = 6806279000 * 1e-12)
-abline(v = mean(querie1_tbusuario_local$TIMER_WAIT * 1e-12), col = "coral")
-boxplot(querie1_tbusuario_local$TIMER_WAIT * 1e-12)
-summary(querie1_tbusuario_local$TIMER_WAIT * 1e-12)
+performance_grapher <- function(query_number, latency, unit_graphs) {
+  mean_query <- mean(latency) * unit_graphs
+  std_query <- sd(latency) * unit_graphs
+  latency <- latency * unit_graphs
+  avg_control <- top[query_number, "AVG_TIMER_WAIT"] * unit_graphs
+  
+  hist(latency, 
+       col = adjustcolor("dodgerblue", alpha.f = 0.2),
+       main = paste("Rendimiento consulta", query_number), 
+       xlab = "Tiempo [ms]", 
+       ylab = "Frecuencia")
+  abline(v = c(mean_query - std_query, mean_query + std_query), 
+         col = "blue", 
+         lty = 2, 
+         lwd = 1)
+  abline(v = mean_query, 
+         col = "blue", 
+         lwd = 2)
+  abline(v = avg_control, 
+         col = "coral", 
+         lwd = 2)
+  
+  boxplot(latency, 
+          outline = TRUE, 
+          horizontal = TRUE, 
+          col = adjustcolor("dodgerblue", alpha.f = 0.2), 
+          main = paste("Cuartiles de la consulta", query_number), 
+          xlab = "Tiempo [ms]")
+  summary(latency)
+}
 ```
 
+### Consulta 1
+```{r}
+performance_grapher(1, query1$TIMER_WAIT, unit_graphs)
+```
+
+### Consulta 2
+```{r}
+performance_grapher(2, query2$TIMER_WAIT, unit_graphs)
+```
+
+### Consulta 3
+```{r}
+performance_grapher(3, query3$TIMER_WAIT, unit_graphs)
+```
+
+### Consulta 4
+```{r}
+performance_grapher(4, query4$TIMER_WAIT, unit_graphs)
+```
+
+### Consulta 5
+```{r}
+performance_grapher(5, query5$TIMER_WAIT, unit_graphs)
+```
+
+### Consulta 6
+```{r}
+performance_grapher(6, query6$TIMER_WAIT, unit_graphs)
+```
+
+### Consulta 7
+```{r}
+performance_grapher(7, query7$TIMER_WAIT, unit_graphs)
+```
+
+### Consulta 8
+```{r}
+performance_grapher(8, query8$TIMER_WAIT, unit_graphs)
+```
+
+### Consulta 9
+```{r}
+performance_grapher(9, query9$TIMER_WAIT, unit_graphs)
+```
+
+### Consulta 10
+```{r}
+performance_grapher(10, query10$TIMER_WAIT, unit_graphs)
+```
 

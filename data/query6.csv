@@ -1,0 +1,2701 @@
+"THREAD_ID","EVENT_ID","END_EVENT_ID","EVENT_NAME","SOURCE","TIMER_START","TIMER_END","TIMER_WAIT","LOCK_TIME","SQL_TEXT","DIGEST","DIGEST_TEXT","CURRENT_SCHEMA","OBJECT_TYPE","OBJECT_SCHEMA","OBJECT_NAME","OBJECT_INSTANCE_BEGIN","MYSQL_ERRNO","RETURNED_SQLSTATE","MESSAGE_TEXT","ERRORS","WARNINGS","ROWS_AFFECTED","ROWS_SENT","ROWS_EXAMINED","CREATED_TMP_DISK_TABLES","CREATED_TMP_TABLES","SELECT_FULL_JOIN","SELECT_FULL_RANGE_JOIN","SELECT_RANGE","SELECT_RANGE_CHECK","SELECT_SCAN","SORT_MERGE_PASSES","SORT_RANGE","SORT_ROWS","SORT_SCAN","NO_INDEX_USED","NO_GOOD_INDEX_USED","NESTING_EVENT_ID","NESTING_EVENT_TYPE","NESTING_EVENT_LEVEL"
+40,10,10,statement/sql/select,"",4610712741519000,4610713121446000,379927000,256000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+41,10,10,statement/sql/select,"",4610712894814000,4610713127358000,232544000,119000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,10,10,statement/sql/select,"",4610712794980000,4610713130398000,335418000,220000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+43,10,10,statement/sql/select,"",4610713010686000,4610713228637000,217951000,111000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+39,10,10,statement/sql/select,"",4610713053614000,4610713274205000,220591000,113000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+44,10,10,statement/sql/select,"",4610713058664000,4610713306706000,248042000,140000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,20,20,statement/sql/select,"",4610748224456000,4610748783761000,559305000,200000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,30,30,statement/sql/select,"",4610849597485000,4610849787147000,189662000,70000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,40,40,statement/sql/select,"",4610948146167000,4610948302051000,155884000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,50,50,statement/sql/select,"",4611046588450000,4611046738277000,149827000,51000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,60,60,statement/sql/select,"",4611152823638000,4611153307146000,483508000,202000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,70,70,statement/sql/select,"",4611255315566000,4611255631777000,316211000,198000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,80,80,statement/sql/select,"",4611356631447000,4611356873227000,241780000,124000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,90,90,statement/sql/select,"",4611447871481000,4611448380862000,509381000,195000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,100,100,statement/sql/select,"",4611547524724000,4611547967996000,443272000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,110,110,statement/sql/select,"",4611645078148000,4611645529940000,451792000,204000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,120,120,statement/sql/select,"",4611744957459000,4611745352085000,394626000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,130,130,statement/sql/select,"",4611852061563000,4611852228355000,166792000,59000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,140,140,statement/sql/select,"",4611953557320000,4611954029496000,472176000,204000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,150,150,statement/sql/select,"",4612047667289000,4612048039169000,371880000,159000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,160,160,statement/sql/select,"",4612150115473000,4612150436037000,320564000,205000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,170,170,statement/sql/select,"",4612246298675000,4612246755237000,456562000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,180,180,statement/sql/select,"",4612351747586000,4612352122921000,375335000,202000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,190,190,statement/sql/select,"",4612453199508000,4612453449736000,250228000,130000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,200,200,statement/sql/select,"",4612545932879000,4612546409798000,476919000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,210,210,statement/sql/select,"",4612651266937000,4612651421179000,154242000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,220,220,statement/sql/select,"",4612752686386000,4612753046177000,359791000,205000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,230,230,statement/sql/select,"",4612853854518000,4612854379360000,524842000,205000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,240,240,statement/sql/select,"",4612953024185000,4612953503711000,479526000,169000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,250,250,statement/sql/select,"",4613045915912000,4613046382662000,466750000,160000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,260,260,statement/sql/select,"",4613148861207000,4613149033566000,172359000,63000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,270,270,statement/sql/select,"",4613252391216000,4613252880839000,489623000,175000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,280,280,statement/sql/select,"",4613344447595000,4613344925943000,478348000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,290,290,statement/sql/select,"",4613452202165000,4613452433193000,231028000,134000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,300,300,statement/sql/select,"",4613545146201000,4613545610386000,464185000,161000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,310,310,statement/sql/select,"",4613644841854000,4613645319004000,477150000,168000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,320,320,statement/sql/select,"",4613746496415000,4613746941848000,445433000,159000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,330,330,statement/sql/select,"",4613844762727000,4613844909222000,146495000,51000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,340,340,statement/sql/select,"",4613945410584000,4613945853431000,442847000,162000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,350,350,statement/sql/select,"",4614045188205000,4614045653770000,465565000,161000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,360,360,statement/sql/select,"",4614143625295000,4614143944807000,319512000,160000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,370,370,statement/sql/select,"",4614245682861000,4614245823633000,140772000,50000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,380,380,statement/sql/select,"",4614343813273000,4614344301632000,488359000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,390,390,statement/sql/select,"",4614449098404000,4614449650779000,552375000,201000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,400,400,statement/sql/select,"",4614549604697000,4614549939606000,334909000,203000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,410,410,statement/sql/select,"",4614644043146000,4614644216825000,173679000,73000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,420,420,statement/sql/select,"",4614745615774000,4614745911496000,295722000,168000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,430,430,statement/sql/select,"",4614843751733000,4614843930579000,178846000,75000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,440,440,statement/sql/select,"",4614949071864000,4614949236810000,164946000,59000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,450,450,statement/sql/select,"",4615050145010000,4615050294435000,149425000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,460,460,statement/sql/select,"",4615148708851000,4615149204691000,495840000,170000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,470,470,statement/sql/select,"",4615250372565000,4615250520363000,147798000,51000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,480,480,statement/sql/select,"",4615344852267000,4615345328463000,476196000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,490,490,statement/sql/select,"",4615450919551000,4615451441995000,522444000,202000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,500,500,statement/sql/select,"",4615543782923000,4615544232190000,449267000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,510,510,statement/sql/select,"",4615649328256000,4615649657358000,329102000,203000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,520,520,statement/sql/select,"",4615746666881000,4615747101154000,434273000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,530,530,statement/sql/select,"",4615843273137000,4615843748515000,475378000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,540,540,statement/sql/select,"",4615953796250000,4615954271428000,475178000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,550,550,statement/sql/select,"",4616045045597000,4616045203215000,157618000,55000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,560,560,statement/sql/select,"",4616148912099000,4616149392991000,480892000,168000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,570,570,statement/sql/select,"",4616247337409000,4616247480882000,143473000,51000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,580,580,statement/sql/select,"",4616346340041000,4616346483945000,143904000,51000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,590,590,statement/sql/select,"",4616449983244000,4616450543671000,560427000,205000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,600,600,statement/sql/select,"",4616552940970000,4616553139920000,198950000,76000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,610,610,statement/sql/select,"",4616649205239000,4616649415631000,210392000,86000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,620,620,statement/sql/select,"",4616749082343000,4616749498896000,416553000,170000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,630,630,statement/sql/select,"",4616850758316000,4616851334994000,576678000,211000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,640,640,statement/sql/select,"",4616944142341000,4616944630542000,488201000,169000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,650,650,statement/sql/select,"",4617044268928000,4617044438749000,169821000,59000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,660,660,statement/sql/select,"",4617148217210000,4617148424318000,207108000,79000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,670,670,statement/sql/select,"",4617246836879000,4617247200043000,363164000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,680,680,statement/sql/select,"",4617346763304000,4617347337750000,574446000,210000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,690,690,statement/sql/select,"",4617448098794000,4617448586835000,488041000,168000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,700,700,statement/sql/select,"",4617550690536000,4617551148505000,457969000,169000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,710,710,statement/sql/select,"",4617647730670000,4617648199747000,469077000,206000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,720,720,statement/sql/select,"",4617745133190000,4617745307232000,174042000,58000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,730,730,statement/sql/select,"",4617848164360000,4617848650822000,486462000,168000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,740,740,statement/sql/select,"",4617947150301000,4617947290792000,140491000,50000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,750,750,statement/sql/select,"",4618043736433000,4618044247977000,511544000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,760,760,statement/sql/select,"",4618148755451000,4618149231704000,476253000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,770,770,statement/sql/select,"",4618245959925000,4618246438703000,478778000,164000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,780,780,statement/sql/select,"",4618343366101000,4618343845234000,479133000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,790,790,statement/sql/select,"",4618448465286000,4618448650348000,185062000,59000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,800,800,statement/sql/select,"",4618549511732000,4618550101325000,589593000,212000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,810,810,statement/sql/select,"",4618644750738000,4618644930856000,180118000,61000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,820,820,statement/sql/select,"",4618748211065000,4618748390093000,179028000,62000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,830,830,statement/sql/select,"",4618842730166000,4618842897997000,167831000,58000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,840,840,statement/sql/select,"",4618947685241000,4618948314076000,628835000,212000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,850,850,statement/sql/select,"",4619048706717000,4619049288410000,581693000,210000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,860,860,statement/sql/select,"",4619148127976000,4619148712047000,584071000,210000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,870,870,statement/sql/select,"",4619248135166000,4619248501826000,366660000,174000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,880,880,statement/sql/select,"",4619344882380000,4619345324340000,441960000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,890,890,statement/sql/select,"",4619442902559000,4619443067829000,165270000,57000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,900,900,statement/sql/select,"",4619544136209000,4619544622646000,486437000,168000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,910,910,statement/sql/select,"",4619648138469000,4619648312462000,173993000,59000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,920,920,statement/sql/select,"",4619749477252000,4619750061556000,584304000,212000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,930,930,statement/sql/select,"",4619844098131000,4619844281591000,183460000,65000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,940,940,statement/sql/select,"",4619944461557000,4619944943227000,481670000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,950,950,statement/sql/select,"",4620046935225000,4620047517247000,582022000,211000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,960,960,statement/sql/select,"",4620150004783000,4620150507617000,502834000,207000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,970,970,statement/sql/select,"",4620244086619000,4620244496826000,410207000,171000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,980,980,statement/sql/select,"",4620344221749000,4620344387290000,165541000,59000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,990,990,statement/sql/select,"",4620447522804000,4620447708142000,185338000,69000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1000,1000,statement/sql/select,"",4620549169463000,4620549348922000,179459000,59000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1010,1010,statement/sql/select,"",4620646492916000,4620646995986000,503070000,179000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1020,1020,statement/sql/select,"",4620747494703000,4620747718720000,224017000,120000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1030,1030,statement/sql/select,"",4620844469098000,4620844934043000,464945000,171000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1040,1040,statement/sql/select,"",4620946662459000,4620946946475000,284016000,182000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1050,1050,statement/sql/select,"",4621043269855000,4621043420399000,150544000,53000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1060,1060,statement/sql/select,"",4621145740808000,4621145896470000,155662000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1070,1070,statement/sql/select,"",4621248972741000,4621249529030000,556289000,202000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1080,1080,statement/sql/select,"",4621348908755000,4621349290784000,382029000,171000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1090,1090,statement/sql/select,"",4621448477982000,4621448974070000,496088000,169000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1100,1100,statement/sql/select,"",4621545199189000,4621545355746000,156557000,64000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1110,1110,statement/sql/select,"",4621646833763000,4621646990114000,156351000,55000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1120,1120,statement/sql/select,"",4621746646623000,4621747126294000,479671000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1130,1130,statement/sql/select,"",4621846127876000,4621846286418000,158542000,60000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1140,1140,statement/sql/select,"",4621944916490000,4621945079504000,163014000,58000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1150,1150,statement/sql/select,"",4622045558706000,4622045711764000,153058000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1160,1160,statement/sql/select,"",4622144009256000,4622144181115000,171859000,73000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1170,1170,statement/sql/select,"",4622244810901000,4622244966983000,156082000,56000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1180,1180,statement/sql/select,"",4622342345352000,4622342520207000,174855000,61000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1190,1190,statement/sql/select,"",4622446751741000,4622446910189000,158448000,56000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1200,1200,statement/sql/select,"",4622552864478000,4622553026403000,161925000,60000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1210,1210,statement/sql/select,"",4622648261252000,4622648758309000,497057000,171000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1220,1220,statement/sql/select,"",4622748522180000,4622749017265000,495085000,170000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1230,1230,statement/sql/select,"",4622848120761000,4622848637624000,516863000,187000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1240,1240,statement/sql/select,"",4622946083650000,4622946559350000,475700000,164000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1250,1250,statement/sql/select,"",4623042848694000,4623043020763000,172069000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1260,1260,statement/sql/select,"",4623148073508000,4623148213420000,139912000,48000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1270,1270,statement/sql/select,"",4623245282354000,4623245691367000,409013000,178000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1280,1280,statement/sql/select,"",4623346816283000,4623346958096000,141813000,52000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1290,1290,statement/sql/select,"",4623445829050000,4623445974056000,145006000,52000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1300,1300,statement/sql/select,"",4623547572680000,4623548035958000,463278000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1310,1310,statement/sql/select,"",4623645068383000,4623645347045000,278662000,170000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1320,1320,statement/sql/select,"",4623746790558000,4623746933552000,142994000,50000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1330,1330,statement/sql/select,"",4623846973051000,4623847202365000,229314000,137000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1340,1340,statement/sql/select,"",4623948098763000,4623948246656000,147893000,51000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1350,1350,statement/sql/select,"",4624046865753000,4624047289789000,424036000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1360,1360,statement/sql/select,"",4624143426259000,4624143775898000,349639000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1370,1370,statement/sql/select,"",4624245657497000,4624245827675000,170178000,57000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1380,1380,statement/sql/select,"",4624347247647000,4624347723166000,475519000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1390,1390,statement/sql/select,"",4624446166047000,4624446337242000,171195000,64000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1400,1400,statement/sql/select,"",4624547731525000,4624547905177000,173652000,70000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1410,1410,statement/sql/select,"",4624646890932000,4624647327010000,436078000,180000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1420,1420,statement/sql/select,"",4624747985961000,4624748154376000,168415000,69000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1430,1430,statement/sql/select,"",4624846523291000,4624846701098000,177807000,75000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1440,1440,statement/sql/select,"",4624947591201000,4624948089381000,498180000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1450,1450,statement/sql/select,"",4625048020692000,4625048192633000,171941000,58000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1460,1460,statement/sql/select,"",4625146160506000,4625146298032000,137526000,48000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1470,1470,statement/sql/select,"",4625245250034000,4625245530260000,280226000,170000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1480,1480,statement/sql/select,"",4625346463728000,4625346597251000,133523000,47000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1490,1490,statement/sql/select,"",4625446738646000,4625446878420000,139774000,49000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1500,1500,statement/sql/select,"",4625547031145000,4625547162706000,131561000,47000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1510,1510,statement/sql/select,"",4625646395963000,4625646534966000,139003000,49000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1520,1520,statement/sql/select,"",4625747608160000,4625748199257000,591097000,202000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1530,1530,statement/sql/select,"",4625847455310000,4625847602959000,147649000,53000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1540,1540,statement/sql/select,"",4625947316954000,4625947483898000,166944000,64000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1550,1550,statement/sql/select,"",4626044839260000,4626045155589000,316329000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1560,1560,statement/sql/select,"",4626143952059000,4626144136576000,184517000,56000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1570,1570,statement/sql/select,"",4626243960937000,4626244473968000,513031000,199000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1580,1580,statement/sql/select,"",4626347024200000,4626347166364000,142164000,51000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1590,1590,statement/sql/select,"",4626448164197000,4626448345525000,181328000,68000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1600,1600,statement/sql/select,"",4626544372408000,4626544677918000,305510000,124000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1610,1610,statement/sql/select,"",4626657395748000,4626658106675000,710927000,313000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1620,1620,statement/sql/select,"",4626760060386000,4626761227437000,1167051000,487000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1630,1630,statement/sql/select,"",4626847573192000,4626847765050000,191858000,74000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1640,1640,statement/sql/select,"",4626948240197000,4626948472244000,232047000,118000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1650,1650,statement/sql/select,"",4627045440663000,4627045907671000,467008000,161000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1660,1660,statement/sql/select,"",4627146977970000,4627147175620000,197650000,71000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1670,1670,statement/sql/select,"",4627249115129000,4627249609644000,494515000,172000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1680,1680,statement/sql/select,"",4627344786986000,4627344937668000,150682000,53000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1690,1690,statement/sql/select,"",4627447645484000,4627448158552000,513068000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1700,1700,statement/sql/select,"",4627547494622000,4627547635881000,141259000,49000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1710,1710,statement/sql/select,"",4627647865264000,4627648019465000,154201000,52000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1720,1720,statement/sql/select,"",4627745605350000,4627746095816000,490466000,171000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1730,1730,statement/sql/select,"",4627846371742000,4627846509204000,137462000,49000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1740,1740,statement/sql/select,"",4627946434425000,4627946573387000,138962000,49000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1750,1750,statement/sql/select,"",4628047062985000,4628047623433000,560448000,207000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1760,1760,statement/sql/select,"",4628147294837000,4628147845037000,550200000,201000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1770,1770,statement/sql/select,"",4628245609704000,4628246078496000,468792000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1780,1780,statement/sql/select,"",4628347796240000,4628348312118000,515878000,174000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1790,1790,statement/sql/select,"",4628447035858000,4628447506637000,470779000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1800,1800,statement/sql/select,"",4628544493639000,4628544647555000,153916000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1810,1810,statement/sql/select,"",4628644869532000,4628645352907000,483375000,164000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1820,1820,statement/sql/select,"",4628748440419000,4628748927807000,487388000,170000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1830,1830,statement/sql/select,"",4628848983029000,4628849575002000,591973000,216000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1840,1840,statement/sql/select,"",4628946623330000,4628947096877000,473547000,164000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1850,1850,statement/sql/select,"",4629047318834000,4629047533554000,214720000,80000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1860,1860,statement/sql/select,"",4629147820973000,4629148430712000,609739000,240000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1870,1870,statement/sql/select,"",4629246326061000,4629246542114000,216053000,111000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1880,1880,statement/sql/select,"",4629349556333000,4629350035727000,479394000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1890,1890,statement/sql/select,"",4629448323046000,4629448819737000,496691000,172000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1900,1900,statement/sql/select,"",4629546584362000,4629547057701000,473339000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1910,1910,statement/sql/select,"",4629646674320000,4629647147617000,473297000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1920,1920,statement/sql/select,"",4629744973525000,4629745448323000,474798000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1930,1930,statement/sql/select,"",4629846837705000,4629846998366000,160661000,57000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1940,1940,statement/sql/select,"",4629947494024000,4629947703032000,209008000,105000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1950,1950,statement/sql/select,"",4630048863110000,4630049357835000,494725000,171000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1960,1960,statement/sql/select,"",4630144993102000,4630145146279000,153177000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1970,1970,statement/sql/select,"",4630244230234000,4630244406152000,175918000,61000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1980,1980,statement/sql/select,"",4630346261036000,4630346453049000,192013000,72000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,1990,1990,statement/sql/select,"",4630447069783000,4630447588859000,519076000,208000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2000,2000,statement/sql/select,"",4630548717678000,4630548930286000,212608000,79000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2010,2010,statement/sql/select,"",4630649370986000,4630649948666000,577680000,208000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2020,2020,statement/sql/select,"",4630747334260000,4630747487135000,152875000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2030,2030,statement/sql/select,"",4630846617117000,4630846774414000,157297000,56000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2040,2040,statement/sql/select,"",4630944684368000,4630945177600000,493232000,171000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2050,2050,statement/sql/select,"",4631044657767000,4631044953735000,295968000,164000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2060,2060,statement/sql/select,"",4631144480086000,4631144955088000,475002000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2070,2070,statement/sql/select,"",4631249574619000,4631250080423000,505804000,172000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2080,2080,statement/sql/select,"",4631345531282000,4631345856449000,325167000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2090,2090,statement/sql/select,"",4631447741807000,4631448354219000,612412000,207000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2100,2100,statement/sql/select,"",4631546117507000,4631546311785000,194278000,73000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2110,2110,statement/sql/select,"",4631646239713000,4631646711327000,471614000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2120,2120,statement/sql/select,"",4631745240489000,4631745719961000,479472000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2130,2130,statement/sql/select,"",4631847920783000,4631848158103000,237320000,129000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2140,2140,statement/sql/select,"",4631947212323000,4631947690472000,478149000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2150,2150,statement/sql/select,"",4632047064633000,4632047364613000,299980000,162000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2160,2160,statement/sql/select,"",4632146473399000,4632146817048000,343649000,162000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2170,2170,statement/sql/select,"",4632243804927000,4632244336794000,531867000,162000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2180,2180,statement/sql/select,"",4632347656240000,4632348123321000,467081000,204000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2190,2190,statement/sql/select,"",4632447558022000,4632448166368000,608346000,204000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2200,2200,statement/sql/select,"",4632543311186000,4632543455307000,144121000,50000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2210,2210,statement/sql/select,"",4632648623245000,4632648966777000,343532000,168000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2220,2220,statement/sql/select,"",4632746845711000,4632747083682000,237971000,138000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2230,2230,statement/sql/select,"",4632847757748000,4632848204921000,447173000,209000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2240,2240,statement/sql/select,"",4632946276587000,4632946745729000,469142000,161000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2250,2250,statement/sql/select,"",4633048831058000,4633049305868000,474810000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2260,2260,statement/sql/select,"",4633148498142000,4633148982073000,483931000,171000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2270,2270,statement/sql/select,"",4633242581060000,4633242739890000,158830000,56000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2280,2280,statement/sql/select,"",4633345748632000,4633346135114000,386482000,172000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2290,2290,statement/sql/select,"",4633446621110000,4633446864590000,243480000,143000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2300,2300,statement/sql/select,"",4633547522160000,4633547791435000,269275000,154000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2310,2310,statement/sql/select,"",4633648120201000,4633648685262000,565061000,204000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2320,2320,statement/sql/select,"",4633749200194000,4633749395341000,195147000,80000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2330,2330,statement/sql/select,"",4633847463786000,4633847754838000,291052000,164000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2340,2340,statement/sql/select,"",4633947989632000,4633948511123000,521491000,201000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2350,2350,statement/sql/select,"",4634045776079000,4634046090610000,314531000,161000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2360,2360,statement/sql/select,"",4634147956531000,4634148307156000,350625000,192000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2370,2370,statement/sql/select,"",4634245044825000,4634245205395000,160570000,56000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2380,2380,statement/sql/select,"",4634347568453000,4634347910017000,341564000,162000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2390,2390,statement/sql/select,"",4634449714806000,4634449860344000,145538000,50000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2400,2400,statement/sql/select,"",4634546040839000,4634546604718000,563879000,203000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2410,2410,statement/sql/select,"",4634647390002000,4634647960807000,570805000,206000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2420,2420,statement/sql/select,"",4634745864831000,4634746362896000,498065000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2430,2430,statement/sql/select,"",4634842767864000,4634842939988000,172124000,60000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2440,2440,statement/sql/select,"",4634944765277000,4634944931314000,166037000,60000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2450,2450,statement/sql/select,"",4635044908028000,4635045265634000,357606000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2460,2460,statement/sql/select,"",4635148544651000,4635148817129000,272478000,173000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2470,2470,statement/sql/select,"",4635242110003000,4635242256717000,146714000,52000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2480,2480,statement/sql/select,"",4635342141750000,4635342289590000,147840000,51000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2490,2490,statement/sql/select,"",4635442903792000,4635443053930000,150138000,52000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2500,2500,statement/sql/select,"",4635547812736000,4635548329057000,516321000,169000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2510,2510,statement/sql/select,"",4635648382430000,4635648638442000,256012000,151000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2520,2520,statement/sql/select,"",4635743535426000,4635743687495000,152069000,52000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2530,2530,statement/sql/select,"",4635845698367000,4635846175791000,477424000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2540,2540,statement/sql/select,"",4635945580650000,4635946049867000,469217000,162000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2550,2550,statement/sql/select,"",4636047683460000,4636047864351000,180891000,67000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2560,2560,statement/sql/select,"",4636147672546000,4636147824664000,152118000,53000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2570,2570,statement/sql/select,"",4636244899755000,4636245197007000,297252000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2580,2580,statement/sql/select,"",4636342721067000,4636342870753000,149686000,53000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2590,2590,statement/sql/select,"",4636446053264000,4636446470722000,417458000,206000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2600,2600,statement/sql/select,"",4636546643639000,4636547044648000,401009000,161000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2610,2610,statement/sql/select,"",4636647177669000,4636647663191000,485522000,168000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2620,2620,statement/sql/select,"",4636746252821000,4636746571734000,318913000,161000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2630,2630,statement/sql/select,"",4636847262687000,4636847743817000,481130000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2640,2640,statement/sql/select,"",4636945852809000,4636946001684000,148875000,52000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2650,2650,statement/sql/select,"",4637043623344000,4637044033699000,410355000,160000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2660,2660,statement/sql/select,"",4637143165906000,4637143633117000,467211000,161000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2670,2670,statement/sql/select,"",4637243894427000,4637244298363000,403936000,183000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2680,2680,statement/sql/select,"",4637346550779000,4637346849562000,298783000,160000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2690,2690,statement/sql/select,"",4637448066580000,4637448213425000,146845000,50000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2700,2700,statement/sql/select,"",4637545812990000,4637545960247000,147257000,51000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2710,2710,statement/sql/select,"",4637645622257000,4637646090294000,468037000,162000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2720,2720,statement/sql/select,"",4637745646129000,4637745805839000,159710000,57000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2730,2730,statement/sql/select,"",4637846073906000,4637846232897000,158991000,55000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2740,2740,statement/sql/select,"",4637945926764000,4637946329559000,402795000,160000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2750,2750,statement/sql/select,"",4638048342100000,4638048727134000,385034000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2760,2760,statement/sql/select,"",4638147549271000,4638147693864000,144593000,51000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2770,2770,statement/sql/select,"",4638245968521000,4638246176565000,208044000,89000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2780,2780,statement/sql/select,"",4638344624206000,4638345098429000,474223000,167000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2790,2790,statement/sql/select,"",4638446339696000,4638446586845000,247149000,144000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2800,2800,statement/sql/select,"",4638544394079000,4638544836755000,442676000,165000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2810,2810,statement/sql/select,"",4638647683429000,4638648020027000,336598000,162000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2820,2820,statement/sql/select,"",4638746900416000,4638747272358000,371942000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2830,2830,statement/sql/select,"",4638847362826000,4638847532463000,169637000,58000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2840,2840,statement/sql/select,"",4638946355048000,4638946677506000,322458000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2850,2850,statement/sql/select,"",4639045770049000,4639046034570000,264521000,161000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2860,2860,statement/sql/select,"",4639145848539000,4639146175572000,327033000,163000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2870,2870,statement/sql/select,"",4639245940415000,4639246168395000,227980000,89000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2880,2880,statement/sql/select,"",4639345506467000,4639345660451000,153984000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2890,2890,statement/sql/select,"",4639446223576000,4639446397771000,174195000,72000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2900,2900,statement/sql/select,"",4639548114570000,4639548267531000,152961000,54000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2910,2910,statement/sql/select,"",4639644769377000,4639645057262000,287885000,177000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2920,2920,statement/sql/select,"",4639744575351000,4639744737376000,162025000,58000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2930,2930,statement/sql/select,"",4639845606836000,4639845785056000,178220000,69000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2940,2940,statement/sql/select,"",4639945892484000,4639946374093000,481609000,170000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+42,2950,2950,statement/sql/select,"",4640045052158000,4640045523679000,471521000,166000000,"SELECT COUNT(*) AS AutorMateria 
+FROM TR_Alumnos 
+WHERE IdUsr = 'U3107' 
+AND IdMat IN (
+SELECT IdMat 
+FROM TB_MateriasGrado 
+WHERE Grado IN ('1', '2') 
+AND IdProgramaAcademico = 'PA1'
+)","5c75ba23ffa78b5c8b7c21d68e80a469",SELECT COUNT ( * ) AS `AutorMateria` FROM `TR_Alumnos` WHERE `IdUsr` = ? AND `IdMat` IN ( SELECT `IdMat` FROM `TB_MateriasGrado` WHERE `Grado` IN (...) AND `IdProgramaAcademico` = ? ) ,diamante,,,,,0,,,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0

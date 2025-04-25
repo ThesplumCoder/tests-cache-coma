@@ -1,0 +1,413 @@
+"THREAD_ID","EVENT_ID","END_EVENT_ID","EVENT_NAME","SOURCE","TIMER_START","TIMER_END","TIMER_WAIT","LOCK_TIME","SQL_TEXT","DIGEST","DIGEST_TEXT","CURRENT_SCHEMA","OBJECT_TYPE","OBJECT_SCHEMA","OBJECT_NAME","OBJECT_INSTANCE_BEGIN","MYSQL_ERRNO","RETURNED_SQLSTATE","MESSAGE_TEXT","ERRORS","WARNINGS","ROWS_AFFECTED","ROWS_SENT","ROWS_EXAMINED","CREATED_TMP_DISK_TABLES","CREATED_TMP_TABLES","SELECT_FULL_JOIN","SELECT_FULL_RANGE_JOIN","SELECT_RANGE","SELECT_RANGE_CHECK","SELECT_SCAN","SORT_MERGE_PASSES","SORT_RANGE","SORT_ROWS","SORT_SCAN","NO_INDEX_USED","NO_GOOD_INDEX_USED","NESTING_EVENT_ID","NESTING_EVENT_TYPE","NESTING_EVENT_LEVEL"
+29,59,59,statement/sql/select,"",843390263662000,843390689179000,425517000,168000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,60,60,statement/sql/select,"",843957190787000,843957672899000,482112000,190000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,61,61,statement/sql/select,"",844237315926000,844237943432000,627506000,238000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,62,62,statement/sql/select,"",844921523556000,844921711731000,188175000,90000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,63,63,statement/sql/select,"",845460814831000,845461431974000,617143000,250000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,64,64,statement/sql/select,"",975679844570000,975680017184000,172614000,79000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,65,65,statement/sql/select,"",976024785354000,976024979624000,194270000,83000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,66,66,statement/sql/select,"",1011151585285000,1011151747918000,162633000,74000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,67,67,statement/sql/select,"",1012217583637000,1012218182741000,599104000,239000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,68,68,statement/sql/select,"",1013322983497000,1013323145098000,161601000,72000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,69,69,statement/sql/select,"",1014393302638000,1014393903229000,600591000,237000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,70,70,statement/sql/select,"",1015424581287000,1015425060069000,478782000,187000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,71,71,statement/sql/select,"",1016501481367000,1016501967768000,486401000,197000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,72,72,statement/sql/select,"",1017551367990000,1017551988156000,620166000,238000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,73,73,statement/sql/select,"",1018570147794000,1018570349181000,201387000,90000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,74,74,statement/sql/select,"",1022855300804000,1022855506230000,205426000,89000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,75,75,statement/sql/select,"",1023906019561000,1023906215042000,195481000,89000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,76,76,statement/sql/select,"",1025062612303000,1025062770400000,158097000,75000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,77,77,statement/sql/select,"",1026083050746000,1026083216123000,165377000,80000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,78,78,statement/sql/select,"",1027115755152000,1027116263196000,508044000,188000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,79,79,statement/sql/select,"",1028177545064000,1028177751691000,206627000,92000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,80,80,statement/sql/select,"",1029230134881000,1029230305806000,170925000,79000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,81,81,statement/sql/select,"",1030283589233000,1030284098868000,509635000,187000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,82,82,statement/sql/select,"",1031380174661000,1031380778854000,604193000,234000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,83,83,statement/sql/select,"",1032475873075000,1032476518445000,645370000,270000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,84,84,statement/sql/select,"",1033555388840000,1033555545892000,157052000,75000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,85,85,statement/sql/select,"",1034622192320000,1034622679455000,487135000,200000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,86,86,statement/sql/select,"",1035692552956000,1035693035277000,482321000,196000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,87,87,statement/sql/select,"",1036784920159000,1036785136697000,216538000,91000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,88,88,statement/sql/select,"",1037836740682000,1037837218482000,477800000,190000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,89,89,statement/sql/select,"",1038874998979000,1038875163145000,164166000,75000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,90,90,statement/sql/select,"",1040058459184000,1040058640659000,181475000,81000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,91,91,statement/sql/select,"",1041085418072000,1041085628590000,210518000,92000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,92,92,statement/sql/select,"",1042153270679000,1042153426502000,155823000,71000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,93,93,statement/sql/select,"",1043205257103000,1043205455460000,198357000,86000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,94,94,statement/sql/select,"",1044224122243000,1044224628289000,506046000,221000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,95,95,statement/sql/select,"",1045294466529000,1045294640035000,173506000,80000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,96,96,statement/sql/select,"",1046363450870000,1046363614218000,163348000,78000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,97,97,statement/sql/select,"",1047435136704000,1047435615003000,478299000,189000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,98,98,statement/sql/select,"",1048502872835000,1048503039700000,166865000,77000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,99,99,statement/sql/select,"",1049544564259000,1049544779119000,214860000,88000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,100,100,statement/sql/select,"",1050605717509000,1050605912240000,194731000,87000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,101,101,statement/sql/select,"",1051664869672000,1051665475679000,606007000,243000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,102,102,statement/sql/select,"",1052898116325000,1052898240573000,124248000,38000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,103,103,statement/sql/select,"",1054222436442000,1054223032128000,595686000,188000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,104,104,statement/sql/select,"",1055249181492000,1055249375291000,193799000,87000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,105,105,statement/sql/select,"",1056327594409000,1056328370141000,775732000,238000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,106,106,statement/sql/select,"",1057456754743000,1057456925002000,170259000,77000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,107,107,statement/sql/select,"",1058588056476000,1058588215468000,158992000,72000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,108,108,statement/sql/select,"",1059603135033000,1059603302279000,167246000,74000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,109,109,statement/sql/select,"",1060693973957000,1060694125913000,151956000,69000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,110,110,statement/sql/select,"",1061770558887000,1061770779733000,220846000,98000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,111,111,statement/sql/select,"",1062890864403000,1062891016494000,152091000,69000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,112,112,statement/sql/select,"",1063959875787000,1063960034384000,158597000,69000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,113,113,statement/sql/select,"",1065013611716000,1065013928736000,317020000,138000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,114,114,statement/sql/select,"",1066063303362000,1066063500517000,197155000,86000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,115,115,statement/sql/select,"",1067112407557000,1067113011485000,603928000,241000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,116,116,statement/sql/select,"",1068133814297000,1068134297625000,483328000,187000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,117,117,statement/sql/select,"",1069185967046000,1069186438622000,471576000,187000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,118,118,statement/sql/select,"",1070255331087000,1070255801488000,470401000,187000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,119,119,statement/sql/select,"",1071320366338000,1071320842216000,475878000,190000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,120,120,statement/sql/select,"",1072375604906000,1072376117178000,512272000,187000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,121,121,statement/sql/select,"",1073426215857000,1073426733940000,518083000,224000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,122,122,statement/sql/select,"",1074478726583000,1074479324753000,598170000,233000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,123,123,statement/sql/select,"",1075530236822000,1075530826262000,589440000,231000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,124,124,statement/sql/select,"",1076581482301000,1076581962885000,480584000,188000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,125,125,statement/sql/select,"",1077651658502000,1077652296073000,637571000,242000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,126,126,statement/sql/select,"",1078764677867000,1078764838269000,160402000,73000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,127,127,statement/sql/select,"",1079840167714000,1079840640680000,472966000,190000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,128,128,statement/sql/select,"",1080891933101000,1080892440365000,507264000,217000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,129,129,statement/sql/select,"",1081946080520000,1081946551997000,471477000,189000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,130,130,statement/sql/select,"",1083024023004000,1083024496468000,473464000,190000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,131,131,statement/sql/select,"",1084044261654000,1084044520279000,258625000,109000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,132,132,statement/sql/select,"",1085087980528000,1085088132202000,151674000,69000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,133,133,statement/sql/select,"",1086154391411000,1086154874057000,482646000,191000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,134,134,statement/sql/select,"",1087225005907000,1087225477361000,471454000,187000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,135,135,statement/sql/select,"",1088255212628000,1088255680945000,468317000,187000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,136,136,statement/sql/select,"",1089307775232000,1089308293473000,518241000,227000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,137,137,statement/sql/select,"",1090351730428000,1090352270884000,540456000,251000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,138,138,statement/sql/select,"",1091372248347000,1091372725098000,476751000,189000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,139,139,statement/sql/select,"",1092402900928000,1092403379961000,479033000,191000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,140,140,statement/sql/select,"",1093424001125000,1093424481900000,480775000,191000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,141,141,statement/sql/select,"",1094570108894000,1094570256975000,148081000,67000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,142,142,statement/sql/select,"",1095808503517000,1095808984119000,480602000,195000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,143,143,statement/sql/select,"",1096922588683000,1096922750350000,161667000,69000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,144,144,statement/sql/select,"",1098426346555000,1098426905202000,558647000,219000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,145,145,statement/sql/select,"",1099509730958000,1099510208675000,477717000,188000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,146,146,statement/sql/select,"",1100550278105000,1100550744161000,466056000,186000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,147,147,statement/sql/select,"",1101724665868000,1101724812154000,146286000,67000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,148,148,statement/sql/select,"",1102879987658000,1102880152153000,164495000,77000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,149,149,statement/sql/select,"",1103914385724000,1103914573917000,188193000,87000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,150,150,statement/sql/select,"",1104982874537000,1104983078072000,203535000,94000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,151,151,statement/sql/select,"",1106001335845000,1106001797554000,461709000,187000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,152,152,statement/sql/select,"",1107070412417000,1107071000062000,587645000,236000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,153,153,statement/sql/select,"",1108090720840000,1108091305720000,584880000,237000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,154,154,statement/sql/select,"",1109124737978000,1109125208369000,470391000,187000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,155,155,statement/sql/select,"",1110202304690000,1110202769784000,465094000,190000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,156,156,statement/sql/select,"",1111222603686000,1111223115239000,511553000,236000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,157,157,statement/sql/select,"",1112241925485000,1112242386270000,460785000,186000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,158,158,statement/sql/select,"",1113278347468000,1113278941389000,593921000,188000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,159,159,statement/sql/select,"",1114339218172000,1114339370623000,152451000,71000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,160,160,statement/sql/select,"",1115399560020000,1115400309574000,749554000,236000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+29,161,161,statement/sql/select,"",1116424750088000,1116425300884000,550796000,185000000,"SELECT * 
+FROM TB_Menu 
+WHERE IdServ = 'S812' 
+AND Estado = 'ACTIVO'","8501a0641b9faf59600fc51d5f97bab7",SELECT * FROM `TB_Menu` WHERE `IdServ` = ? AND `Estado` = ? ,diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
