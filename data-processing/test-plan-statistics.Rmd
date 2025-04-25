@@ -7,7 +7,7 @@ output:
 
 # Carga de datos
 ```{r}
-request_data <- read.csv(file = "./test-plan-data")
+request_data <- read.csv(file = "../data/test-plan-data")
 ```
 
 Variables globales.

@@ -17,7 +17,7 @@ La carga de datos se hace desde el archivo exportado por **DBeaver**, para la
 tabla *events_statements_summary_by_digest* en la base de datos 
 *performance_schema*.
 ```{r}
-data_perf_schema <- read.csv(file = "./data/events_statements_summary_by_digest_202412151135.csv")
+data_perf_schema <- read.csv(file = "../data/events_statements_summary_by_digest_202412151135.csv")
 
 schema_split <- strsplit(data_perf_schema$SCHEMA_NAME, split = "_")
 data_perf_schema$STRUCTURE_BD <- unlist(lapply(schema_split, function(x) { x[1] }))
@@ -98,7 +98,7 @@ unique_avg_timer_wait <- ordered_avg_timer_wait[!duplicated(ordered_avg_timer_wa
 
 # TOP
 top <- queries_data[intersect(rownames(unique_count_star[1:1000, ]), rownames(unique_avg_timer_wait[1:1000, ])), ]
-write.csv(top[1:20, c("DIGEST", "DIGEST_TEXT")], file = "./data/top20-queries.csv")
+write.csv(top[1:20, c("DIGEST", "DIGEST_TEXT")], file = "../data/top20-queries.csv")
 ```
 
 Exploramos cada columna de interés para observar sus parámetros estadísticos.
@@ -124,16 +124,16 @@ boxplot(top$SUM_ROWS_SENT / top$COUNT_STAR,
 Importamos las muestras de rendimiento que se produjeron al repetir un ejemplo 
 de cada una de las consultas del TOP.
 ```{r}
-query1 <- read.csv(file = "./data/query1.csv")
-query2 <- read.csv(file = "./data/query2.csv")
-query3 <- read.csv(file = "./data/query3.csv")
-query4 <- read.csv(file = "./data/query4.csv")
-query5 <- read.csv(file = "./data/query5.csv")
-query6 <- read.csv(file = "./data/query6.csv")
-query7 <- read.csv(file = "./data/query7.csv")
-query8 <- read.csv(file = "./data/query8.csv")
-query9 <- read.csv(file = "./data/query9.csv")
-query10 <- read.csv(file = "./data/query10.csv")
+query1 <- read.csv(file = "../data/query1.csv")
+query2 <- read.csv(file = "../data/query2.csv")
+query3 <- read.csv(file = "../data/query3.csv")
+query4 <- read.csv(file = "../data/query4.csv")
+query5 <- read.csv(file = "../data/query5.csv")
+query6 <- read.csv(file = "../data/query6.csv")
+query7 <- read.csv(file = "../data/query7.csv")
+query8 <- read.csv(file = "../data/query8.csv")
+query9 <- read.csv(file = "../data/query9.csv")
+query10 <- read.csv(file = "../data/query10.csv")
 
 unit_miliseconds <- 1e-9
 unit_seconds <- 1e-12
