@@ -1,0 +1,1201 @@
+"THREAD_ID","EVENT_ID","END_EVENT_ID","EVENT_NAME","SOURCE","TIMER_START","TIMER_END","TIMER_WAIT","LOCK_TIME","SQL_TEXT","DIGEST","DIGEST_TEXT","CURRENT_SCHEMA","OBJECT_TYPE","OBJECT_SCHEMA","OBJECT_NAME","OBJECT_INSTANCE_BEGIN","MYSQL_ERRNO","RETURNED_SQLSTATE","MESSAGE_TEXT","ERRORS","WARNINGS","ROWS_AFFECTED","ROWS_SENT","ROWS_EXAMINED","CREATED_TMP_DISK_TABLES","CREATED_TMP_TABLES","SELECT_FULL_JOIN","SELECT_FULL_RANGE_JOIN","SELECT_RANGE","SELECT_RANGE_CHECK","SELECT_SCAN","SORT_MERGE_PASSES","SORT_RANGE","SORT_ROWS","SORT_SCAN","NO_INDEX_USED","NO_GOOD_INDEX_USED","NESTING_EVENT_ID","NESTING_EVENT_TYPE","NESTING_EVENT_LEVEL"
+43,6,6,statement/sql/select,"",4610698815983000,4610702720214000,3904231000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+39,6,6,statement/sql/select,"",4610698838534000,4610702729447000,3890913000,143000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+40,6,6,statement/sql/select,"",4610698876902000,4610702739125000,3862223000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+41,6,6,statement/sql/select,"",4610698814678000,4610702747630000,3932952000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,6,6,statement/sql/select,"",4610698898745000,4610702781778000,3883033000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+44,6,6,statement/sql/select,"",4610698899467000,4610702782984000,3883517000,146000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,16,16,statement/sql/select,"",4610738442165000,4610742165993000,3723828000,48000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,26,26,statement/sql/select,"",4610838826643000,4610842471208000,3644565000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,36,36,statement/sql/select,"",4610938956109000,4610942767466000,3811357000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,46,46,statement/sql/select,"",4611037789095000,4611041300672000,3511577000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,56,56,statement/sql/select,"",4611139473398000,4611143347688000,3874290000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,66,66,statement/sql/select,"",4611240222311000,4611243885067000,3662756000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,76,76,statement/sql/select,"",4611341213199000,4611344955493000,3742294000,146000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,86,86,statement/sql/select,"",4611437674941000,4611442032016000,4357075000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,96,96,statement/sql/select,"",4611539100606000,4611543301538000,4200932000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,106,106,statement/sql/select,"",4611636504088000,4611640343650000,3839562000,121000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,116,116,statement/sql/select,"",4611737607208000,4611741584680000,3977472000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,126,126,statement/sql/select,"",4611840135588000,4611843984053000,3848465000,148000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,136,136,statement/sql/select,"",4611939706439000,4611943449927000,3743488000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,146,146,statement/sql/select,"",4612038423532000,4612042464454000,4040922000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,156,156,statement/sql/select,"",4612139314775000,4612143054187000,3739412000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,166,166,statement/sql/select,"",4612237328676000,4612240991061000,3662385000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,176,176,statement/sql/select,"",4612339174976000,4612342746859000,3571883000,50000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,186,186,statement/sql/select,"",4612439766935000,4612443521292000,3754357000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,196,196,statement/sql/select,"",4612536488064000,4612539844708000,3356644000,43000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,206,206,statement/sql/select,"",4612639110255000,4612642696743000,3586488000,146000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,216,216,statement/sql/select,"",4612740528906000,4612744293449000,3764543000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,226,226,statement/sql/select,"",4612840571174000,4612844434167000,3862993000,148000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,236,236,statement/sql/select,"",4612939548725000,4612943517597000,3968872000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,246,246,statement/sql/select,"",4613037561212000,4613041079770000,3518558000,115000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,256,256,statement/sql/select,"",4613137594997000,4613141296182000,3701185000,48000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,266,266,statement/sql/select,"",4613239092009000,4613242865259000,3773250000,99000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,276,276,statement/sql/select,"",4613336466099000,4613340406680000,3940581000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,286,286,statement/sql/select,"",4613439970600000,4613443973826000,4003226000,167000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,296,296,statement/sql/select,"",4613537109053000,4613540729821000,3620768000,143000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,306,306,statement/sql/select,"",4613636299402000,4613639728288000,3428886000,38000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,316,316,statement/sql/select,"",4613738881580000,4613742481972000,3600392000,76000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,326,326,statement/sql/select,"",4613837106073000,4613840964773000,3858700000,121000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,336,336,statement/sql/select,"",4613936568348000,4613940720327000,4151979000,121000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,346,346,statement/sql/select,"",4614035974473000,4614040148250000,4173777000,137000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,356,356,statement/sql/select,"",4614136959288000,4614140352329000,3393041000,40000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,366,366,statement/sql/select,"",4614237422538000,4614241767648000,4345110000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,376,376,statement/sql/select,"",4614336592369000,4614340645566000,4053197000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,386,386,statement/sql/select,"",4614438472193000,4614442093798000,3621605000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,396,396,statement/sql/select,"",4614539033633000,4614542444422000,3410789000,110000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,406,406,statement/sql/select,"",4614636953866000,4614640752661000,3798795000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,416,416,statement/sql/select,"",4614736895113000,4614740616862000,3721749000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,426,426,statement/sql/select,"",4614836083034000,4614839783092000,3700058000,48000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,436,436,statement/sql/select,"",4614939105380000,4614942794908000,3689528000,50000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,446,446,statement/sql/select,"",4615039429207000,4615043438769000,4009562000,148000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,456,456,statement/sql/select,"",4615137879012000,4615141831180000,3952168000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,466,466,statement/sql/select,"",4615240037928000,4615244243176000,4205248000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,476,476,statement/sql/select,"",4615338048955000,4615342031289000,3982334000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,486,486,statement/sql/select,"",4615439127882000,4615443339599000,4211717000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,496,496,statement/sql/select,"",4615536552392000,4615539882339000,3329947000,47000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,506,506,statement/sql/select,"",4615639371330000,4615642770881000,3399551000,53000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,516,516,statement/sql/select,"",4615737980355000,4615741489101000,3508746000,40000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,526,526,statement/sql/select,"",4615836158472000,4615840287123000,4128651000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,536,536,statement/sql/select,"",4615943266852000,4615947426033000,4159181000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,546,546,statement/sql/select,"",4616037521086000,4616041089179000,3568093000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,556,556,statement/sql/select,"",4616139634545000,4616143287893000,3653348000,148000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,566,566,statement/sql/select,"",4616237933836000,4616241704780000,3770944000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,576,576,statement/sql/select,"",4616336434167000,4616340599043000,4164876000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,586,586,statement/sql/select,"",4616439060091000,4616442973716000,3913625000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,596,596,statement/sql/select,"",4616541037141000,4616544814159000,3777018000,151000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,606,606,statement/sql/select,"",4616638537123000,4616642499336000,3962213000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,616,616,statement/sql/select,"",4616738354973000,4616742750770000,4395797000,152000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,626,626,statement/sql/select,"",4616839486503000,4616843775815000,4289312000,153000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,636,636,statement/sql/select,"",4616937622275000,4616941266038000,3643763000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,646,646,statement/sql/select,"",4617036648497000,4617040366465000,3717968000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,656,656,statement/sql/select,"",4617137668725000,4617141251457000,3582732000,152000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,666,666,statement/sql/select,"",4617237778200000,4617241965960000,4187760000,129000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,676,676,statement/sql/select,"",4617337692481000,4617341943540000,4251059000,131000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,686,686,statement/sql/select,"",4617438003146000,4617442280633000,4277487000,129000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,696,696,statement/sql/select,"",4617543151545000,4617546675955000,3524410000,129000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,706,706,statement/sql/select,"",4617637541184000,4617641802761000,4261577000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,716,716,statement/sql/select,"",4617737692343000,4617741319891000,3627548000,139000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,726,726,statement/sql/select,"",4617838233002000,4617842251602000,4018600000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,736,736,statement/sql/select,"",4617937854707000,4617941361495000,3506788000,90000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,746,746,statement/sql/select,"",4618036352316000,4618039671480000,3319164000,52000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,756,756,statement/sql/select,"",4618138796616000,4618142520935000,3724319000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,766,766,statement/sql/select,"",4618237900067000,4618241443543000,3543476000,94000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,776,776,statement/sql/select,"",4618336058513000,4618339492671000,3434158000,56000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,786,786,statement/sql/select,"",4618437570186000,4618441367034000,3796848000,149000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,796,796,statement/sql/select,"",4618538930975000,4618542859433000,3928458000,153000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,806,806,statement/sql/select,"",4618636686908000,4618641158721000,4471813000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,816,816,statement/sql/select,"",4618737544725000,4618741659986000,4115261000,129000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,826,826,statement/sql/select,"",4618836063794000,4618839587706000,3523912000,52000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,836,836,statement/sql/select,"",4618937545596000,4618941747517000,4201921000,151000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,846,846,statement/sql/select,"",4619038528711000,4619042182503000,3653792000,135000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,856,856,statement/sql/select,"",4619138191596000,4619141947091000,3755495000,153000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,866,866,statement/sql/select,"",4619237829130000,4619241518517000,3689387000,154000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,876,876,statement/sql/select,"",4619336686634000,4619340694735000,4008101000,154000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,886,886,statement/sql/select,"",4619436680869000,4619440223846000,3542977000,51000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,896,896,statement/sql/select,"",4619535872816000,4619540151659000,4278843000,146000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,906,906,statement/sql/select,"",4619638053144000,4619642463708000,4410564000,152000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,916,916,statement/sql/select,"",4619738110014000,4619742098492000,3988478000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,926,926,statement/sql/select,"",4619837714098000,4619841393894000,3679796000,54000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,936,936,statement/sql/select,"",4619936029952000,4619939529132000,3499180000,62000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,946,946,statement/sql/select,"",4620037741978000,4620041395000000,3653022000,150000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,956,956,statement/sql/select,"",4620139327112000,4620143453584000,4126472000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,966,966,statement/sql/select,"",4620236663847000,4620240286789000,3622942000,92000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,976,976,statement/sql/select,"",4620335798618000,4620339458388000,3659770000,75000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,986,986,statement/sql/select,"",4620437609861000,4620441584688000,3974827000,151000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,996,996,statement/sql/select,"",4620539196460000,4620542688638000,3492178000,158000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1006,1006,statement/sql/select,"",4620637756625000,4620641471733000,3715108000,53000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1016,1016,statement/sql/select,"",4620736878877000,4620741328164000,4449287000,134000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1026,1026,statement/sql/select,"",4620836129289000,4620840547705000,4418416000,129000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1036,1036,statement/sql/select,"",4620937486909000,4620941940411000,4453502000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1046,1046,statement/sql/select,"",4621036313258000,4621040222414000,3909156000,127000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1056,1056,statement/sql/select,"",4621137265230000,4621141124848000,3859618000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1066,1066,statement/sql/select,"",4621238183989000,4621242413408000,4229419000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1076,1076,statement/sql/select,"",4621338280478000,4621342611876000,4331398000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1086,1086,statement/sql/select,"",4621438906743000,4621442714362000,3807619000,161000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1096,1096,statement/sql/select,"",4621536622464000,4621541022573000,4400109000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1106,1106,statement/sql/select,"",4621637590139000,4621641525234000,3935095000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1116,1116,statement/sql/select,"",4621737431957000,4621741329961000,3898004000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1126,1126,statement/sql/select,"",4621837980268000,4621841747696000,3767428000,51000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1136,1136,statement/sql/select,"",4621936807567000,4621940260266000,3452699000,42000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1146,1146,statement/sql/select,"",4622037393829000,4622040893183000,3499354000,39000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1156,1156,statement/sql/select,"",4622137596521000,4622141149905000,3553384000,41000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1166,1166,statement/sql/select,"",4622237567421000,4622241238528000,3671107000,48000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1176,1176,statement/sql/select,"",4622336353128000,4622339907003000,3553875000,43000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1186,1186,statement/sql/select,"",4622438146831000,4622441846869000,3700038000,40000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1196,1196,statement/sql/select,"",4622546461357000,4622550227944000,3766587000,133000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1206,1206,statement/sql/select,"",4622637906137000,4622641920524000,4014387000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1216,1216,statement/sql/select,"",4622738843140000,4622742734974000,3891834000,143000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1226,1226,statement/sql/select,"",4622838963574000,4622842800618000,3837044000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1236,1236,statement/sql/select,"",4622937280426000,4622941082696000,3802270000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1246,1246,statement/sql/select,"",4623036597310000,4623039889224000,3291914000,38000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1256,1256,statement/sql/select,"",4623138443722000,4623142698256000,4254534000,121000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1266,1266,statement/sql/select,"",4623236877538000,4623241175410000,4297872000,135000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1276,1276,statement/sql/select,"",4623336849139000,4623340997167000,4148028000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1286,1286,statement/sql/select,"",4623436727721000,4623440382732000,3655011000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1296,1296,statement/sql/select,"",4623538390170000,4623542488320000,4098150000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1306,1306,statement/sql/select,"",4623636860296000,4623640640416000,3780120000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1316,1316,statement/sql/select,"",4623737220790000,4623741041873000,3821083000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1326,1326,statement/sql/select,"",4623838242263000,4623842292359000,4050096000,146000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1336,1336,statement/sql/select,"",4623938500295000,4623942199704000,3699409000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1346,1346,statement/sql/select,"",4624037866430000,4624041670569000,3804139000,143000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1356,1356,statement/sql/select,"",4624136499592000,4624140674123000,4174531000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1366,1366,statement/sql/select,"",4624236125914000,4624240334924000,4209010000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1376,1376,statement/sql/select,"",4624336477514000,4624340373556000,3896042000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1386,1386,statement/sql/select,"",4624438217907000,4624442034041000,3816134000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1396,1396,statement/sql/select,"",4624538621534000,4624542585131000,3963597000,51000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1406,1406,statement/sql/select,"",4624637576644000,4624641350458000,3773814000,127000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1416,1416,statement/sql/select,"",4624737500066000,4624741426697000,3926631000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1426,1426,statement/sql/select,"",4624837741161000,4624841568623000,3827462000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1436,1436,statement/sql/select,"",4624938188703000,4624941872463000,3683760000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1446,1446,statement/sql/select,"",4625038859725000,4625043048129000,4188404000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1456,1456,statement/sql/select,"",4625137734813000,4625141372997000,3638184000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1466,1466,statement/sql/select,"",4625236504240000,4625240109832000,3605592000,42000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1476,1476,statement/sql/select,"",4625336812211000,4625340732183000,3919972000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1486,1486,statement/sql/select,"",4625437249121000,4625440891799000,3642678000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1496,1496,statement/sql/select,"",4625537077868000,4625541211914000,4134046000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1506,1506,statement/sql/select,"",4625637889446000,4625641406320000,3516874000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1516,1516,statement/sql/select,"",4625738056035000,4625741749787000,3693752000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1526,1526,statement/sql/select,"",4625837829774000,4625842092565000,4262791000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1536,1536,statement/sql/select,"",4625937575127000,4625941267475000,3692348000,143000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1546,1546,statement/sql/select,"",4626036606514000,4626040378372000,3771858000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1556,1556,statement/sql/select,"",4626136479347000,4626140517649000,4038302000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1566,1566,statement/sql/select,"",4626236331712000,4626239732770000,3401058000,42000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1576,1576,statement/sql/select,"",4626337713191000,4626341515753000,3802562000,148000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1586,1586,statement/sql/select,"",4626437592285000,4626441588227000,3995942000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1596,1596,statement/sql/select,"",4626536502630000,4626540652905000,4150275000,90000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1606,1606,statement/sql/select,"",4626641714867000,4626649727661000,8012794000,329000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1616,1616,statement/sql/select,"",4626743675828000,4626751480999000,7805171000,474000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1626,1626,statement/sql/select,"",4626839153838000,4626843537989000,4384151000,84000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1636,1636,statement/sql/select,"",4626939056608000,4626942972572000,3915964000,163000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1646,1646,statement/sql/select,"",4627036554410000,4627039911157000,3356747000,40000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1656,1656,statement/sql/select,"",4627137387755000,4627141096048000,3708293000,52000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1666,1666,statement/sql/select,"",4627238179114000,4627242352383000,4173269000,144000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1676,1676,statement/sql/select,"",4627337169711000,4627340677999000,3508288000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1686,1686,statement/sql/select,"",4627437796600000,4627441934198000,4137598000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1696,1696,statement/sql/select,"",4627538032440000,4627541999463000,3967023000,143000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1706,1706,statement/sql/select,"",4627638192454000,4627642116715000,3924261000,122000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1716,1716,statement/sql/select,"",4627737108324000,4627740661986000,3553662000,130000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1726,1726,statement/sql/select,"",4627836891450000,4627840891082000,3999632000,129000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1736,1736,statement/sql/select,"",4627937780375000,4627941777882000,3997507000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1746,1746,statement/sql/select,"",4628037251202000,4628041183854000,3932652000,149000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1756,1756,statement/sql/select,"",4628137281875000,4628141413881000,4132006000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1766,1766,statement/sql/select,"",4628237039923000,4628240782148000,3742225000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1776,1776,statement/sql/select,"",4628337272840000,4628341037854000,3765014000,146000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1786,1786,statement/sql/select,"",4628437251354000,4628441127023000,3875669000,146000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1796,1796,statement/sql/select,"",4628536066302000,4628540099001000,4032699000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1806,1806,statement/sql/select,"",4628635630839000,4628639743387000,4112548000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1816,1816,statement/sql/select,"",4628737944844000,4628741900792000,3955948000,151000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1826,1826,statement/sql/select,"",4628838158994000,4628842344668000,4185674000,155000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1836,1836,statement/sql/select,"",4628937589723000,4628941213739000,3624016000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1846,1846,statement/sql/select,"",4629037660302000,4629041235845000,3575543000,50000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1856,1856,statement/sql/select,"",4629137435097000,4629141270186000,3835089000,129000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1866,1866,statement/sql/select,"",4629237450858000,4629241835998000,4385140000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1876,1876,statement/sql/select,"",4629338396570000,4629342412138000,4015568000,129000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1886,1886,statement/sql/select,"",4629438430473000,4629442003224000,3572751000,58000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1896,1896,statement/sql/select,"",4629537141798000,4629540802675000,3660877000,153000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1906,1906,statement/sql/select,"",4629637208408000,4629640934700000,3726292000,48000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1916,1916,statement/sql/select,"",4629736750612000,4629740201424000,3450812000,76000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1926,1926,statement/sql/select,"",4629837028435000,4629840809153000,3780718000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1936,1936,statement/sql/select,"",4629937839048000,4629941353073000,3514025000,148000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1946,1946,statement/sql/select,"",4630038794790000,4630042535024000,3740234000,149000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1956,1956,statement/sql/select,"",4630136912206000,4630140603329000,3691123000,47000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1966,1966,statement/sql/select,"",4630235972215000,4630239570121000,3597906000,139000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1976,1976,statement/sql/select,"",4630336561589000,4630340584733000,4023144000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1986,1986,statement/sql/select,"",4630436766954000,4630440670810000,3903856000,150000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,1996,1996,statement/sql/select,"",4630537881580000,4630541909253000,4027673000,150000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2006,2006,statement/sql/select,"",4630638916358000,4630642769731000,3853373000,151000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2016,2016,statement/sql/select,"",4630737336672000,4630741303823000,3967151000,149000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2026,2026,statement/sql/select,"",4630837225956000,4630841056457000,3830501000,127000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2036,2036,statement/sql/select,"",4630937089518000,4630940465529000,3376011000,53000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2046,2046,statement/sql/select,"",4631035855579000,4631039285533000,3429954000,47000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2056,2056,statement/sql/select,"",4631136250618000,4631140648484000,4397866000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2066,2066,statement/sql/select,"",4631239584144000,4631243643035000,4058891000,151000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2076,2076,statement/sql/select,"",4631336909823000,4631340955937000,4046114000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2086,2086,statement/sql/select,"",4631438430503000,4631442115303000,3684800000,134000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2096,2096,statement/sql/select,"",4631537095065000,4631540669477000,3574412000,149000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2106,2106,statement/sql/select,"",4631637264691000,4631640995742000,3731051000,56000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2116,2116,statement/sql/select,"",4631737806206000,4631741712707000,3906501000,150000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2126,2126,statement/sql/select,"",4631838372033000,4631842216651000,3844618000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2136,2136,statement/sql/select,"",4631937101162000,4631941224410000,4123248000,129000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2146,2146,statement/sql/select,"",4632037437471000,4632041589750000,4152279000,127000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2156,2156,statement/sql/select,"",4632137831146000,4632141830399000,3999253000,138000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2166,2166,statement/sql/select,"",4632235625692000,4632239142717000,3517025000,56000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2176,2176,statement/sql/select,"",4632337997618000,4632341883438000,3885820000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2186,2186,statement/sql/select,"",4632438165733000,4632441868486000,3702753000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2196,2196,statement/sql/select,"",4632536145760000,4632539491264000,3345504000,48000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2206,2206,statement/sql/select,"",4632637511159000,4632641311171000,3800012000,71000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2216,2216,statement/sql/select,"",4632736506290000,4632740046009000,3539719000,149000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2226,2226,statement/sql/select,"",4632836535407000,4632840723301000,4187894000,151000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2236,2236,statement/sql/select,"",4632937136533000,4632940674803000,3538270000,54000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2246,2246,statement/sql/select,"",4633038815374000,4633042901318000,4085944000,149000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2256,2256,statement/sql/select,"",4633138560123000,4633142255937000,3695814000,109000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2266,2266,statement/sql/select,"",4633236321576000,4633239921691000,3600115000,46000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2276,2276,statement/sql/select,"",4633336787814000,4633340705063000,3917249000,131000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2286,2286,statement/sql/select,"",4633436873252000,4633440820994000,3947742000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2296,2296,statement/sql/select,"",4633536991681000,4633540904994000,3913313000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2306,2306,statement/sql/select,"",4633638089608000,4633642490626000,4401018000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2316,2316,statement/sql/select,"",4633738344321000,4633742528635000,4184314000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2326,2326,statement/sql/select,"",4633837235067000,4633840969080000,3734013000,92000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2336,2336,statement/sql/select,"",4633937756516000,4633941233310000,3476794000,120000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2346,2346,statement/sql/select,"",4634036354397000,4634039953055000,3598658000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2356,2356,statement/sql/select,"",4634137612105000,4634141754365000,4142260000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2366,2366,statement/sql/select,"",4634237399221000,4634240874605000,3475384000,85000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2376,2376,statement/sql/select,"",4634338338380000,4634342048738000,3710358000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2386,2386,statement/sql/select,"",4634438776225000,4634443198535000,4422310000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2396,2396,statement/sql/select,"",4634536910296000,4634540283711000,3373415000,48000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2406,2406,statement/sql/select,"",4634636821178000,4634641041223000,4220045000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2416,2416,statement/sql/select,"",4634736640962000,4634740646887000,4005925000,127000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2426,2426,statement/sql/select,"",4634835916758000,4634840135803000,4219045000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2436,2436,statement/sql/select,"",4634937352168000,4634941356318000,4004150000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2446,2446,statement/sql/select,"",4635037506444000,4635041056280000,3549836000,44000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2456,2456,statement/sql/select,"",4635137941892000,4635142066866000,4124974000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2466,2466,statement/sql/select,"",4635235375899000,4635238879979000,3504080000,43000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2476,2476,statement/sql/select,"",4635335702702000,4635339126831000,3424129000,44000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2486,2486,statement/sql/select,"",4635436292642000,4635439765830000,3473188000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2496,2496,statement/sql/select,"",4635538190955000,4635541862454000,3671499000,149000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2506,2506,statement/sql/select,"",4635637936625000,4635642132180000,4195555000,148000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2516,2516,statement/sql/select,"",4635735943575000,4635739414892000,3471317000,45000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2526,2526,statement/sql/select,"",4635836358934000,4635839799438000,3440504000,71000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2536,2536,statement/sql/select,"",4635936604184000,4635940386724000,3782540000,52000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2546,2546,statement/sql/select,"",4636037639645000,4636041819089000,4179444000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2556,2556,statement/sql/select,"",4636138038634000,4636142506702000,4468068000,125000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2566,2566,statement/sql/select,"",4636236255780000,4636240128254000,3872474000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2576,2576,statement/sql/select,"",4636335577235000,4636339409662000,3832427000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2586,2586,statement/sql/select,"",4636436764691000,4636440249212000,3484521000,72000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2596,2596,statement/sql/select,"",4636537061582000,4636540412066000,3350484000,48000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2606,2606,statement/sql/select,"",4636637146706000,4636640707962000,3561256000,65000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2616,2616,statement/sql/select,"",4636738437891000,4636741972988000,3535097000,112000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2626,2626,statement/sql/select,"",4636837845543000,4636841675078000,3829535000,145000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2636,2636,statement/sql/select,"",4636937447037000,4636941286558000,3839521000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2646,2646,statement/sql/select,"",4637035917875000,4637039358909000,3441034000,41000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2656,2656,statement/sql/select,"",4637135666894000,4637139241801000,3574907000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2666,2666,statement/sql/select,"",4637236634851000,4637240141530000,3506679000,100000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2676,2676,statement/sql/select,"",4637337673975000,4637341750577000,4076602000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2686,2686,statement/sql/select,"",4637437989478000,4637442447004000,4457526000,124000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2696,2696,statement/sql/select,"",4637536632555000,4637540566679000,3934124000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2706,2706,statement/sql/select,"",4637636809567000,4637640863742000,4054175000,146000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2716,2716,statement/sql/select,"",4637737144003000,4637740486997000,3342994000,48000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2726,2726,statement/sql/select,"",4637837122446000,4637840564977000,3442531000,50000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2736,2736,statement/sql/select,"",4637936797799000,4637940259595000,3461796000,51000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2746,2746,statement/sql/select,"",4638038496073000,4638042549782000,4053709000,147000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2756,2756,statement/sql/select,"",4638138310341000,4638141987389000,3677048000,155000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2766,2766,statement/sql/select,"",4638236705381000,4638240309057000,3603676000,123000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2776,2776,statement/sql/select,"",4638336350987000,4638340347100000,3996113000,127000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2786,2786,statement/sql/select,"",4638436660765000,4638440562684000,3901919000,127000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2796,2796,statement/sql/select,"",4638536577954000,4638539970857000,3392903000,54000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2806,2806,statement/sql/select,"",4638637808793000,4638642187588000,4378795000,126000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2816,2816,statement/sql/select,"",4638737659638000,4638741352981000,3693343000,127000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2826,2826,statement/sql/select,"",4638837904640000,4638841488869000,3584229000,153000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2836,2836,statement/sql/select,"",4638936938004000,4638940592938000,3654934000,149000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2846,2846,statement/sql/select,"",4639036943776000,4639041004750000,4060974000,148000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2856,2856,statement/sql/select,"",4639136789297000,4639141113769000,4324472000,150000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2866,2866,statement/sql/select,"",4639236962482000,4639240393848000,3431366000,84000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2876,2876,statement/sql/select,"",4639336884497000,4639340279883000,3395386000,48000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2886,2886,statement/sql/select,"",4639438013096000,4639441794591000,3781495000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2896,2896,statement/sql/select,"",4639538423925000,4639542307362000,3883437000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2906,2906,statement/sql/select,"",4639635281358000,4639639550719000,4269361000,128000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2916,2916,statement/sql/select,"",4639736810763000,4639740498089000,3687326000,56000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2926,2926,statement/sql/select,"",4639837531853000,4639841548057000,4016204000,57000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2936,2936,statement/sql/select,"",4639937249746000,4639941007237000,3757491000,59000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0
+42,2946,2946,statement/sql/select,"",4640037394359000,4640041097914000,3703555000,59000000,"SELECT IdUsr, IdCat 
+FROM TP_Usuarios 
+WHERE Identif = '1100952919' 
+AND IdCat IN ('CT2', 'CT3')","75eec6bd2918bd085c2f275fa121edd8","SELECT `IdUsr` , `IdCat` FROM `TP_Usuarios` WHERE `Identif` = ? AND `IdCat` IN (...) ",diamante,,,,,0,,,0,0,0,1,7277,0,0,0,0,0,0,1,0,0,0,0,1,0,,,0

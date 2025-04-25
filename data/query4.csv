@@ -1,0 +1,1501 @@
+"THREAD_ID","EVENT_ID","END_EVENT_ID","EVENT_NAME","SOURCE","TIMER_START","TIMER_END","TIMER_WAIT","LOCK_TIME","SQL_TEXT","DIGEST","DIGEST_TEXT","CURRENT_SCHEMA","OBJECT_TYPE","OBJECT_SCHEMA","OBJECT_NAME","OBJECT_INSTANCE_BEGIN","MYSQL_ERRNO","RETURNED_SQLSTATE","MESSAGE_TEXT","ERRORS","WARNINGS","ROWS_AFFECTED","ROWS_SENT","ROWS_EXAMINED","CREATED_TMP_DISK_TABLES","CREATED_TMP_TABLES","SELECT_FULL_JOIN","SELECT_FULL_RANGE_JOIN","SELECT_RANGE","SELECT_RANGE_CHECK","SELECT_SCAN","SORT_MERGE_PASSES","SORT_RANGE","SORT_ROWS","SORT_SCAN","NO_INDEX_USED","NO_GOOD_INDEX_USED","NESTING_EVENT_ID","NESTING_EVENT_TYPE","NESTING_EVENT_LEVEL"
+43,8,8,statement/sql/select,"",4610706402826000,4610707092907000,690081000,237000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+44,8,8,statement/sql/select,"",4610706375362000,4610707277978000,902616000,565000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+39,8,8,statement/sql/select,"",4610706386077000,4610707285541000,899464000,466000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+41,8,8,statement/sql/select,"",4610706300799000,4610707292127000,991328000,643000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,8,8,statement/sql/select,"",4610706381239000,4610707306508000,925269000,364000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+40,8,8,statement/sql/select,"",4610706406912000,4610707356689000,949777000,539000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,18,18,statement/sql/select,"",4610745150228000,4610745402838000,252610000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,28,28,statement/sql/select,"",4610845612518000,4610846460505000,847987000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,38,38,statement/sql/select,"",4610945412929000,4610945930293000,517364000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,48,48,statement/sql/select,"",4611043873340000,4611044141961000,268621000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,58,58,statement/sql/select,"",4611147948113000,4611148350829000,402716000,164000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,68,68,statement/sql/select,"",4611249077761000,4611249585988000,508227000,134000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,78,78,statement/sql/select,"",4611351016833000,4611351634050000,617217000,136000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,88,88,statement/sql/select,"",4611444815676000,4611445663431000,847755000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,98,98,statement/sql/select,"",4611545755402000,4611546010211000,254809000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,108,108,statement/sql/select,"",4611642042383000,4611642885723000,843340000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,118,118,statement/sql/select,"",4611743264806000,4611743518562000,253756000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,128,128,statement/sql/select,"",4611848375811000,4611848685513000,309702000,47000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,138,138,statement/sql/select,"",4611948310036000,4611949053818000,743782000,136000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,148,148,statement/sql/select,"",4612045146807000,4612045408891000,262084000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,158,158,statement/sql/select,"",4612146830274000,4612147098887000,268613000,45000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,168,168,statement/sql/select,"",4612243431560000,4612243683138000,251578000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,178,178,statement/sql/select,"",4612346413744000,4612347147525000,733781000,134000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,188,188,statement/sql/select,"",4612448124437000,4612448938634000,814197000,134000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,198,198,statement/sql/select,"",4612542597757000,4612543488601000,890844000,135000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,208,208,statement/sql/select,"",4612646822313000,4612647740097000,917784000,135000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,218,218,statement/sql/select,"",4612748512797000,4612748972880000,460083000,136000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,228,228,statement/sql/select,"",4612849126410000,4612850060721000,934311000,135000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,238,238,statement/sql/select,"",4612948580014000,4612949367849000,787835000,136000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,248,248,statement/sql/select,"",4613043209638000,4613043817639000,608001000,101000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,258,258,statement/sql/select,"",4613145399771000,4613145690325000,290554000,47000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,268,268,statement/sql/select,"",4613247370104000,4613248158477000,788373000,136000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,278,278,statement/sql/select,"",4613342144390000,4613342578010000,433620000,101000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,288,288,statement/sql/select,"",4613447841785000,4613448710741000,868956000,135000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,298,298,statement/sql/select,"",4613543254001000,4613543496365000,242364000,30000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,308,308,statement/sql/select,"",4613641822588000,4613642659966000,837378000,100000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,318,318,statement/sql/select,"",4613744023427000,4613744535014000,511587000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,328,328,statement/sql/select,"",4613843021697000,4613843274118000,252421000,30000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,338,338,statement/sql/select,"",4613943458358000,4613943731335000,272977000,54000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,348,348,statement/sql/select,"",4614042630280000,4614043198669000,568389000,100000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,358,358,statement/sql/select,"",4614141524486000,4614141767959000,243473000,31000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,368,368,statement/sql/select,"",4614243405179000,4614244269380000,864201000,102000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,378,378,statement/sql/select,"",4614341976397000,4614342702035000,725638000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,388,388,statement/sql/select,"",4614445114894000,4614445670204000,555310000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,398,398,statement/sql/select,"",4614545751023000,4614546130757000,379734000,137000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,408,408,statement/sql/select,"",4614642505904000,4614642770290000,264386000,35000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,418,418,statement/sql/select,"",4614743164134000,4614743422117000,257983000,35000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,428,428,statement/sql/select,"",4614841720731000,4614841996599000,275868000,36000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,438,438,statement/sql/select,"",4614946055132000,4614946338680000,283548000,46000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,448,448,statement/sql/select,"",4615046773762000,4615047027088000,253326000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,458,458,statement/sql/select,"",4615145200762000,4615145721324000,520562000,137000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,468,468,statement/sql/select,"",4615248054245000,4615248851403000,797158000,136000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,478,478,statement/sql/select,"",4615343171334000,4615343786278000,614944000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,488,488,statement/sql/select,"",4615446933871000,4615447403148000,469277000,136000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,498,498,statement/sql/select,"",4615541358079000,4615542206898000,848819000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,508,508,statement/sql/select,"",4615645384510000,4615645947979000,563469000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,518,518,statement/sql/select,"",4615743939077000,4615744220187000,281110000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,528,528,statement/sql/select,"",4615841420165000,4615842272075000,851910000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,538,538,statement/sql/select,"",4615951838502000,4615952132498000,293996000,31000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,548,548,statement/sql/select,"",4616042641320000,4616042884597000,243277000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,558,558,statement/sql/select,"",4616146396938000,4616146642996000,246058000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,568,568,statement/sql/select,"",4616244426000000,4616244703801000,277801000,35000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,578,578,statement/sql/select,"",4616343309686000,4616344187547000,877861000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,588,588,statement/sql/select,"",4616446331149000,4616446919387000,588238000,138000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,598,598,statement/sql/select,"",4616548940282000,4616549866270000,925988000,141000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,608,608,statement/sql/select,"",4616645564678000,4616646133206000,568528000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,618,618,statement/sql/select,"",4616745594747000,4616746201320000,606573000,110000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,628,628,statement/sql/select,"",4616847019352000,4616847774742000,755390000,142000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,638,638,statement/sql/select,"",4616942245195000,4616942513306000,268111000,37000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,648,648,statement/sql/select,"",4617042287086000,4617042856691000,569605000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,658,658,statement/sql/select,"",4617144688837000,4617145105406000,416569000,141000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,668,668,statement/sql/select,"",4617244986874000,4617245270862000,283988000,40000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,678,678,statement/sql/select,"",4617344371204000,4617344880397000,509193000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,688,688,statement/sql/select,"",4617445150199000,4617445749109000,598910000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,698,698,statement/sql/select,"",4617547942299000,4617548821084000,878785000,127000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,708,708,statement/sql/select,"",4617644328952000,4617645181602000,852650000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,718,718,statement/sql/select,"",4617742869422000,4617743467688000,598266000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,728,728,statement/sql/select,"",4617845346333000,4617845964878000,618545000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,738,738,statement/sql/select,"",4617944051498000,4617944427980000,376482000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,748,748,statement/sql/select,"",4618041170107000,4618041653459000,483352000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,758,758,statement/sql/select,"",4618145509067000,4618146357380000,848313000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,768,768,statement/sql/select,"",4618242934552000,4618243689557000,755005000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,778,778,statement/sql/select,"",4618341805333000,4618342105682000,300349000,51000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,788,788,statement/sql/select,"",4618444440831000,4618445233842000,793011000,139000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,798,798,statement/sql/select,"",4618545569445000,4618546339882000,770437000,143000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,808,808,statement/sql/select,"",4618643154237000,4618643704606000,550369000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,818,818,statement/sql/select,"",4618744799935000,4618745334071000,534136000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,828,828,statement/sql/select,"",4618841552957000,4618841839065000,286108000,38000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,838,838,statement/sql/select,"",4618944580312000,4618944914463000,334151000,70000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,848,848,statement/sql/select,"",4619045235928000,4619045671209000,435281000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,858,858,statement/sql/select,"",4619144246733000,4619145079794000,833061000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,868,868,statement/sql/select,"",4619244541673000,4619245076321000,534648000,109000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,878,878,statement/sql/select,"",4619342123831000,4619342986806000,862975000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,888,888,statement/sql/select,"",4619441335767000,4619441630805000,295038000,37000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,898,898,statement/sql/select,"",4619541672001000,4619542185611000,513610000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,908,908,statement/sql/select,"",4619645271225000,4619645558283000,287058000,41000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,918,918,statement/sql/select,"",4619745263748000,4619746197084000,933336000,143000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,928,928,statement/sql/select,"",4619842848508000,4619843139952000,291444000,39000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,938,938,statement/sql/select,"",4619941446831000,4619942082520000,635689000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,948,948,statement/sql/select,"",4620043843565000,4620044309060000,465495000,140000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,958,958,statement/sql/select,"",4620146380943000,4620146629416000,248473000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,968,968,statement/sql/select,"",4620242017948000,4620242311072000,293124000,41000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,978,978,statement/sql/select,"",4620341662796000,4620342518818000,856022000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,988,988,statement/sql/select,"",4620444370253000,4620445183641000,813388000,107000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,998,998,statement/sql/select,"",4620545288319000,4620546074670000,786351000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1008,1008,statement/sql/select,"",4620643154269000,4620643697191000,542922000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1018,1018,statement/sql/select,"",4620743806573000,4620744751557000,944984000,139000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1028,1028,statement/sql/select,"",4620842528405000,4620842801379000,272974000,37000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1038,1038,statement/sql/select,"",4620943950133000,4620944467468000,517335000,128000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1048,1048,statement/sql/select,"",4621042099913000,4621042349949000,250036000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1058,1058,statement/sql/select,"",4621143350643000,4621143610037000,259394000,35000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1068,1068,statement/sql/select,"",4621245762379000,4621246154008000,391629000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1078,1078,statement/sql/select,"",4621345502225000,4621346321415000,819190000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1088,1088,statement/sql/select,"",4621444830385000,4621445524709000,694324000,136000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1098,1098,statement/sql/select,"",4621543162104000,4621543404198000,242094000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1108,1108,statement/sql/select,"",4621643956844000,4621644792525000,835681000,122000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1118,1118,statement/sql/select,"",4621743828440000,4621744111865000,283425000,31000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1128,1128,statement/sql/select,"",4621843881953000,4621844189868000,307915000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1138,1138,statement/sql/select,"",4621942707297000,4621942981159000,273862000,35000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1148,1148,statement/sql/select,"",4622043196292000,4622043458950000,262658000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1158,1158,statement/sql/select,"",4622142245914000,4622142519569000,273655000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1168,1168,statement/sql/select,"",4622243038400000,4622243323268000,284868000,37000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1178,1178,statement/sql/select,"",4622340925630000,4622341198083000,272453000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1188,1188,statement/sql/select,"",4622444034647000,4622444308461000,273814000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1198,1198,statement/sql/select,"",4622551631561000,4622551885495000,253934000,31000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1208,1208,statement/sql/select,"",4622644872103000,4622645259194000,387091000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1218,1218,statement/sql/select,"",4622745229547000,4622745475618000,246071000,41000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1228,1228,statement/sql/select,"",4622845789059000,4622846034389000,245330000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1238,1238,statement/sql/select,"",4622943355047000,4622943975151000,620104000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1248,1248,statement/sql/select,"",4623041162567000,4623041406856000,244289000,31000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1258,1258,statement/sql/select,"",4623145503604000,4623145757057000,253453000,41000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1268,1268,statement/sql/select,"",4623242710323000,4623243019462000,309139000,39000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1278,1278,statement/sql/select,"",4623344073828000,4623344679958000,606130000,110000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1288,1288,statement/sql/select,"",4623443014330000,4623443423882000,409552000,145000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1298,1298,statement/sql/select,"",4623544622400000,4623545153769000,531369000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1308,1308,statement/sql/select,"",4623643015900000,4623643550022000,534122000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1318,1318,statement/sql/select,"",4623744124240000,4623744761060000,636820000,110000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1328,1328,statement/sql/select,"",4623844199333000,4623845003198000,803865000,110000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1338,1338,statement/sql/select,"",4623945051381000,4623945567498000,516117000,109000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1348,1348,statement/sql/select,"",4624043611289000,4624044426688000,815399000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1358,1358,statement/sql/select,"",4624142126778000,4624142379270000,252492000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1368,1368,statement/sql/select,"",4624242832397000,4624243315930000,483533000,107000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1378,1378,statement/sql/select,"",4624343443574000,4624344261328000,817754000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1388,1388,statement/sql/select,"",4624443934963000,4624444213981000,279018000,37000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1398,1398,statement/sql/select,"",4624545115610000,4624545423202000,307592000,49000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1408,1408,statement/sql/select,"",4624643754582000,4624644124445000,369863000,113000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1418,1418,statement/sql/select,"",4624744194059000,4624744905553000,711494000,107000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1428,1428,statement/sql/select,"",4624843888486000,4624844181586000,293100000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1438,1438,statement/sql/select,"",4624944473948000,4624945327256000,853308000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1448,1448,statement/sql/select,"",4625045526194000,4625046040026000,513832000,107000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1458,1458,statement/sql/select,"",4625143844372000,4625144113566000,269194000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1468,1468,statement/sql/select,"",4625242465681000,4625242790347000,324666000,61000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1478,1478,statement/sql/select,"",4625343548840000,4625343783218000,234378000,31000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1488,1488,statement/sql/select,"",4625443798881000,4625444683815000,884934000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1498,1498,statement/sql/select,"",4625544007627000,4625544267964000,260337000,47000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1508,1508,statement/sql/select,"",4625644028318000,4625644453524000,425206000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1518,1518,statement/sql/select,"",4625743979819000,4625744707839000,728020000,127000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1528,1528,statement/sql/select,"",4625844624945000,4625844874124000,249179000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1538,1538,statement/sql/select,"",4625944081246000,4625944333793000,252547000,42000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1548,1548,statement/sql/select,"",4626042152912000,4626042998614000,845702000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1558,1558,statement/sql/select,"",4626142132187000,4626142565680000,433493000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1568,1568,statement/sql/select,"",4626241416373000,4626241655308000,238935000,31000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1578,1578,statement/sql/select,"",4626344558670000,4626345034307000,475637000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1588,1588,statement/sql/select,"",4626444229988000,4626445087832000,857844000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1598,1598,statement/sql/select,"",4626542183228000,4626542553219000,369991000,53000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1608,1608,statement/sql/select,"",4626653688606000,4626654735828000,1047222000,223000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1618,1618,statement/sql/select,"",4626754989774000,4626756735178000,1745404000,242000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1628,1628,statement/sql/select,"",4626845656227000,4626845952823000,296596000,36000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1638,1638,statement/sql/select,"",4626945353725000,4626945671238000,317513000,72000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1648,1648,statement/sql/select,"",4627042448042000,4627043297226000,849184000,102000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1658,1658,statement/sql/select,"",4627143705032000,4627143980452000,275420000,36000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1668,1668,statement/sql/select,"",4627245116850000,4627245812481000,695631000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1678,1678,statement/sql/select,"",4627342493526000,4627343338446000,844920000,101000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1688,1688,statement/sql/select,"",4627443953848000,4627444677769000,723921000,121000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1698,1698,statement/sql/select,"",4627544737141000,4627545053801000,316660000,98000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1708,1708,statement/sql/select,"",4627644665774000,4627645178779000,513005000,135000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1718,1718,statement/sql/select,"",4627743211349000,4627743503300000,291951000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1728,1728,statement/sql/select,"",4627843682317000,4627844419977000,737660000,101000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1738,1738,statement/sql/select,"",4627943991793000,4627944269878000,278085000,54000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1748,1748,statement/sql/select,"",4628043868312000,4628044187053000,318741000,44000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1758,1758,statement/sql/select,"",4628144441607000,4628145160247000,718640000,134000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1768,1768,statement/sql/select,"",4628243268425000,4628243578519000,310094000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1778,1778,statement/sql/select,"",4628343650053000,4628344525211000,875158000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1788,1788,statement/sql/select,"",4628443948320000,4628444793016000,844696000,126000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1798,1798,statement/sql/select,"",4628542489800000,4628543059189000,569389000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1808,1808,statement/sql/select,"",4628642147110000,4628642603694000,456584000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1818,1818,statement/sql/select,"",4628744884757000,4628745440700000,555943000,141000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1828,1828,statement/sql/select,"",4628845395148000,4628846052783000,657635000,142000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1838,1838,statement/sql/select,"",4628943891652000,4628944180886000,289234000,38000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1848,1848,statement/sql/select,"",4629044131440000,4629044984853000,853413000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1858,1858,statement/sql/select,"",4629144276072000,4629144729148000,453076000,141000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1868,1868,statement/sql/select,"",4629243537039000,4629244069787000,532748000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1878,1878,statement/sql/select,"",4629346285304000,4629347033856000,748552000,142000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1888,1888,statement/sql/select,"",4629445128149000,4629445421898000,293749000,57000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1898,1898,statement/sql/select,"",4629543762119000,4629544475819000,713700000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1908,1908,statement/sql/select,"",4629643580037000,4629643844845000,264808000,37000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1918,1918,statement/sql/select,"",4629742584913000,4629742844168000,259255000,35000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1928,1928,statement/sql/select,"",4629843794941000,4629844350676000,555735000,138000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1938,1938,statement/sql/select,"",4629944181343000,4629944446822000,265479000,35000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1948,1948,statement/sql/select,"",4630045434401000,4630045762096000,327695000,100000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1958,1958,statement/sql/select,"",4630142706967000,4630142964499000,257532000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1968,1968,statement/sql/select,"",4630241655661000,4630242285384000,629723000,102000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1978,1978,statement/sql/select,"",4630343243093000,4630343524518000,281425000,36000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1988,1988,statement/sql/select,"",4630443018086000,4630443469827000,451741000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,1998,1998,statement/sql/select,"",4630545046132000,4630545796216000,750084000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2008,2008,statement/sql/select,"",4630645458151000,4630646144235000,686084000,107000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2018,2018,statement/sql/select,"",4630744158398000,4630744454647000,296249000,41000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2028,2028,statement/sql/select,"",4630843800952000,4630844570318000,769366000,102000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2038,2038,statement/sql/select,"",4630942570003000,4630942854356000,284353000,38000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2048,2048,statement/sql/select,"",4631041623620000,4631041892072000,268452000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2058,2058,statement/sql/select,"",4631142558054000,4631143344723000,786669000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2068,2068,statement/sql/select,"",4631246206591000,4631246799546000,592955000,107000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2078,2078,statement/sql/select,"",4631342826594000,4631343677146000,850552000,107000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2088,2088,statement/sql/select,"",4631444387939000,4631444966176000,578237000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2098,2098,statement/sql/select,"",4631543201859000,4631543487049000,285190000,50000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2108,2108,statement/sql/select,"",4631643135878000,4631643402468000,266590000,36000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2118,2118,statement/sql/select,"",4631743524668000,4631743788342000,263674000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2128,2128,statement/sql/select,"",4631844998245000,4631845332987000,334742000,79000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2138,2138,statement/sql/select,"",4631944379202000,4631944685169000,305967000,53000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2148,2148,statement/sql/select,"",4632044311763000,4632045163675000,851912000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2158,2158,statement/sql/select,"",4632144560260000,4632144848941000,288681000,58000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2168,2168,statement/sql/select,"",4632240585899000,4632241433558000,847659000,101000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2178,2178,statement/sql/select,"",4632344857515000,4632345112658000,255143000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2188,2188,statement/sql/select,"",4632444275036000,4632445126186000,851150000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2198,2198,statement/sql/select,"",4632542008134000,4632542261127000,252993000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2208,2208,statement/sql/select,"",4632644878241000,4632645798820000,920579000,136000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2218,2218,statement/sql/select,"",4632743241718000,4632743994848000,753130000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2228,2228,statement/sql/select,"",4632844094219000,4632844374459000,280240000,39000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2238,2238,statement/sql/select,"",4632943250043000,4632943511593000,261550000,36000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2248,2248,statement/sql/select,"",4633044898446000,4633045746861000,848415000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2258,2258,statement/sql/select,"",4633145008873000,4633145905567000,896694000,139000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2268,2268,statement/sql/select,"",4633241278055000,4633241566782000,288727000,36000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2278,2278,statement/sql/select,"",4633343008234000,4633343537750000,529516000,110000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2288,2288,statement/sql/select,"",4633443798459000,4633444101348000,302889000,35000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2298,2298,statement/sql/select,"",4633543967740000,4633544787058000,819318000,133000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2308,2308,statement/sql/select,"",4633644538221000,4633645227551000,689330000,101000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2318,2318,statement/sql/select,"",4633745492381000,4633746363759000,871378000,110000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2328,2328,statement/sql/select,"",4633843938641000,4633844741180000,802539000,129000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2338,2338,statement/sql/select,"",4633944256349000,4633944980060000,723711000,137000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2348,2348,statement/sql/select,"",4634042149011000,4634042993691000,844680000,102000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2358,2358,statement/sql/select,"",4634144740783000,4634145144262000,403479000,137000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2368,2368,statement/sql/select,"",4634243046275000,4634243295765000,249490000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2378,2378,statement/sql/select,"",4634344784393000,4634345046758000,262365000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2388,2388,statement/sql/select,"",4634446288165000,4634446959012000,670847000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2398,2398,statement/sql/select,"",4634542748434000,4634543236631000,488197000,135000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2408,2408,statement/sql/select,"",4634643622052000,4634644501463000,879411000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2418,2418,statement/sql/select,"",4634743107161000,4634743839785000,732624000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2428,2428,statement/sql/select,"",4634841409947000,4634841702337000,292390000,38000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2438,2438,statement/sql/select,"",4634942798814000,4634943323337000,524523000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2448,2448,statement/sql/select,"",4635042699887000,4635042971037000,271150000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2458,2458,statement/sql/select,"",4635144794119000,4635145709138000,915019000,137000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2468,2468,statement/sql/select,"",4635239934675000,4635240813805000,879130000,121000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2478,2478,statement/sql/select,"",4635340187167000,4635341036941000,849774000,102000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2488,2488,statement/sql/select,"",4635441786786000,4635442045151000,258365000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2498,2498,statement/sql/select,"",4635544502025000,4635544865219000,363194000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2508,2508,statement/sql/select,"",4635645082207000,4635645859754000,777547000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2518,2518,statement/sql/select,"",4635740942232000,4635741795709000,853477000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2528,2528,statement/sql/select,"",4635842555508000,4635842849487000,293979000,38000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2538,2538,statement/sql/select,"",4635943571446000,4635943833832000,262386000,36000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2548,2548,statement/sql/select,"",4636044825831000,4636045119834000,294003000,70000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2558,2558,statement/sql/select,"",4636144876022000,4636145728328000,852306000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2568,2568,statement/sql/select,"",4636241771285000,4636242419252000,647967000,102000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2578,2578,statement/sql/select,"",4636340968399000,4636341226873000,258474000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2588,2588,statement/sql/select,"",4636442766990000,4636443026180000,259190000,34000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2598,2598,statement/sql/select,"",4636543247481000,4636543714695000,467214000,111000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2608,2608,statement/sql/select,"",4636643805151000,4636644435423000,630272000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2618,2618,statement/sql/select,"",4636744125344000,4636744383800000,258456000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2628,2628,statement/sql/select,"",4636844409396000,4636844702252000,292856000,37000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2638,2638,statement/sql/select,"",4636943608404000,4636943858944000,250540000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2648,2648,statement/sql/select,"",4637041758490000,4637042256106000,497616000,100000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2658,2658,statement/sql/select,"",4637141176583000,4637141500169000,323586000,82000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2668,2668,statement/sql/select,"",4637241689474000,4637242298751000,609277000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2678,2678,statement/sql/select,"",4637343686133000,4637344120280000,434147000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2688,2688,statement/sql/select,"",4637445028253000,4637445880346000,852093000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2698,2698,statement/sql/select,"",4637543272996000,4637544142736000,869740000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2708,2708,statement/sql/select,"",4637643252595000,4637643520170000,267575000,48000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2718,2718,statement/sql/select,"",4637742877756000,4637743126200000,248444000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2728,2728,statement/sql/select,"",4637843139362000,4637843911602000,772240000,126000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2738,2738,statement/sql/select,"",4637942862753000,4637943114219000,251466000,32000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2748,2748,statement/sql/select,"",4638045391811000,4638046240087000,848276000,103000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2758,2758,statement/sql/select,"",4638144870621000,4638145608572000,737951000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2768,2768,statement/sql/select,"",4638242937717000,4638243813775000,876058000,100000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2778,2778,statement/sql/select,"",4638342083952000,4638342939001000,855049000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2788,2788,statement/sql/select,"",4638443496585000,4638444417361000,920776000,106000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2798,2798,statement/sql/select,"",4638541675525000,4638542525260000,849735000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2808,2808,statement/sql/select,"",4638644850991000,4638645202949000,351958000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2818,2818,statement/sql/select,"",4638744247644000,4638744538053000,290409000,55000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2828,2828,statement/sql/select,"",4638844605134000,4638845474676000,869542000,108000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2838,2838,statement/sql/select,"",4638943408803000,4638943812560000,403757000,104000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2848,2848,statement/sql/select,"",4639042728667000,4639042990830000,262163000,33000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2858,2858,statement/sql/select,"",4639143387861000,4639143655795000,267934000,36000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2868,2868,statement/sql/select,"",4639243189320000,4639243459098000,269778000,35000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2878,2878,statement/sql/select,"",4639342581850000,4639343442555000,860705000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2888,2888,statement/sql/select,"",4639443783071000,4639444091019000,307948000,50000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2898,2898,statement/sql/select,"",4639544866621000,4639545721841000,855220000,105000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2908,2908,statement/sql/select,"",4639641209125000,4639642105210000,896085000,125000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2918,2918,statement/sql/select,"",4639742538623000,4639742819089000,280466000,38000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2928,2928,statement/sql/select,"",4639843608145000,4639843914066000,305921000,39000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2938,2938,statement/sql/select,"",4639943259575000,4639943740336000,480761000,109000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
+42,2948,2948,statement/sql/select,"",4640043033484000,4640043296808000,263324000,35000000,"SELECT Nota, ComentProfe 
+FROM TR_NotaTallerExamen 
+WHERE IdUsr = 'U7123' 
+AND IdTaller = 'T20' 
+AND IdGuionClase = 'GU69'","305a30a0b6adc9155160ed9ef69b2b46","SELECT `Nota` , `ComentProfe` FROM `TR_NotaTallerExamen` WHERE `IdUsr` = ? AND `IdTaller` = ? AND `IdGuionClase` = ? ",diamante,,,,,0,,,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,0
