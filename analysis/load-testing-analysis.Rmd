@@ -1,0 +1,54 @@
+---
+title: "Load Testing"
+output: html_document
+date: "2025-12-01"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(ggthemes)
+```
+
+
+# Data loading
+
+```{r}
+cache_data <- read_csv("./cache-log.jtl")
+normal_data <- read_csv("./normal-log.jtl")
+```
+
+# Viewing data
+
+```{r}
+ggplot(cache_data) + 
+  geom_bar(aes(x = responseCode), fill = c("dodgerblue")) + 
+  labs(
+    title = "Response codes", 
+    x = "Number of response code", 
+    y = "Count"
+  )
+```
+
+
+```{r}
+ggplot(cache_data, aes(y = Latency)) +
+  geom_boxplot()
+
+ggplot(normal_data, aes(y = Latency)) +
+  geom_boxplot()
+```
+
+
+```{r}
+ggplot(cache_data, aes(x = Latency, y = elapsed)) + 
+  geom_point()
+
+ggplot(normal_data, aes(x = Latency, y = elapsed)) + 
+  geom_point()
+```
+
+

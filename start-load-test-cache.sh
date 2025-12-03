@@ -1,0 +1,1 @@
+$JMETER_HOME/bin/jmeter -n -t ./test/load-testing-plan.jmx -l /data/cache-load-testing.jtl
