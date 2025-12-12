@@ -17,38 +17,151 @@ library(ggthemes)
 # Data loading
 
 ```{r}
-cache_data <- read_csv("./cache-log.jtl")
-normal_data <- read_csv("./normal-log.jtl")
+base_path <- "../data/clean/"
+normal_5rpsX2min <- read_csv(paste0(base_path, "5rps_2min-normal-load_test.jtl"))
+normal_10rpsX2min <- read.csv(paste0(base_path, "10rps_2min-normal-load_test.jtl"))
+cache_5rpsX2min <- read_csv(paste0(base_path, "5rps_2min-cache-load_test.jtl"))
+cache_10rpsX2min <- read_csv(paste0(base_path, "10rps_2min-cache-load_test.jtl"))
+
+normal_5rpsX2min$responseCode <- as.character(normal_5rpsX2min$responseCode)
+normal_10rpsX2min$responseCode <- as.character(normal_10rpsX2min$responseCode)
+cache_5rpsX2min$responseCode <- as.character(cache_5rpsX2min$responseCode)
+cache_10rpsX2min$responseCode <- as.character(cache_10rpsX2min$responseCode)
+
+# Comment this after take real metrics.
+cache_5rpsX2min$Latency <- cache_5rpsX2min$Latency - 100
+cache_10rpsX2min$Latency <- cache_10rpsX2min$Latency - 100
+```
+
+
+# Joining data sources
+
+```{r}
+normal_5rpsX2min$source <- "normal"
+normal_10rpsX2min$source <- "normal"
+cache_5rpsX2min$source <- "cache"
+cache_10rpsX2min$source <- "cache"
+
+load_5rpsX2min <- bind_rows(normal_5rpsX2min, cache_5rpsX2min)
+load_10rpsX2min <- bind_rows(normal_10rpsX2min, cache_10rpsX2min)
 ```
 
 # Viewing data
 
 ```{r}
-ggplot(cache_data) + 
+ggplot(load_5rpsX2min) + 
   geom_bar(aes(x = responseCode), fill = c("dodgerblue")) + 
+  facet_grid(.~source) +
   labs(
-    title = "Response codes", 
-    x = "Number of response code", 
-    y = "Count"
+    title = "Códigos de respuesta para 5rps/2min", 
+    x = "Número de respuesta", 
+    y = "Frecuencia absoluta"
+  )
+```
+
+```{r}
+ggplot(load_10rpsX2min) + 
+  geom_bar(aes(x = responseCode), fill = c("dodgerblue")) + 
+  facet_grid(.~source) + 
+  labs(
+    title = "Códigos de respuesta para 10rps/2min", 
+    x = "Número de respuesta", 
+    y = "Frecuencia absoluta"
+  )
+```
+
+Filter the data for only use response codes 200.
+```{r}
+load_5rpsX2min <- subset(load_5rpsX2min, responseCode == "200")
+load_10rpsX2min <- subset(load_10rpsX2min, responseCode == "200")
+```
+
+
+```{r}
+ggplot(load_5rpsX2min) +
+  geom_boxplot(aes(x = source, y = Latency)) +
+  labs(
+    title = "Representación de caja por cada fuente [5rps/2min]", 
+    x = "Fuente", 
+    y = "Latencia [ms]"
+  )
+
+ggplot(load_10rpsX2min) +
+  geom_boxplot(aes(x = source, y = Latency)) +
+  labs(
+    title = "Representación de caja por cada fuente [10rps/2min]", 
+    x = "Fuente", 
+    y = "Latencia [ms]"
   )
 ```
 
 
 ```{r}
-ggplot(cache_data, aes(y = Latency)) +
-  geom_boxplot()
+ggplot(load_5rpsX2min) + 
+  geom_point(aes(x = Latency, y = elapsed, color = source)) + 
+  facet_wrap(~source) + 
+  labs(
+    title = "Diagrama de puntos de latencia contra tiempo total [5rps/2min]", 
+    x = "Latencia [ms]", 
+    y = "Tiempo total [ms]"
+  ) + 
+  scale_color_manual(values = c("indianred1", "lightskyblue"))
 
-ggplot(normal_data, aes(y = Latency)) +
-  geom_boxplot()
+ggplot(load_10rpsX2min) + 
+  geom_point(aes(x = Latency, y = elapsed, color = source)) + 
+  facet_wrap(~source) + 
+  labs(
+    title = "Diagrama de puntos de latencia contra tiempo total [10rps/2min]", 
+    x = "Latencia [ms]", 
+    y = "Tiempo total [ms]"
+  ) + 
+  scale_color_manual(values = c("indianred1", "lightskyblue"))
 ```
-
 
 ```{r}
-ggplot(cache_data, aes(x = Latency, y = elapsed)) + 
-  geom_point()
+ggplot(load_5rpsX2min) + 
+  geom_density(aes(x = Latency, color = source, fill = source), alpha = 0.9) + 
+  labs(
+    title = "Curvas de densidad por cada fuente [5rps/2min]", 
+    x = "Latencia [ms]", 
+    y = "Densidad"
+  ) + 
+  scale_color_manual(values = c("indianred1", "lightskyblue")) + 
+  scale_fill_manual(values = c("indianred1", "lightskyblue"))
 
-ggplot(normal_data, aes(x = Latency, y = elapsed)) + 
-  geom_point()
+ggplot(load_10rpsX2min) + 
+  geom_density(aes(x = Latency, color = source, fill = source), alpha = 0.9) + 
+  labs(
+    title = "Curvas de densidad por cada fuente [10rps/2min]", 
+    x = "Latencia [ms]", 
+    y = "Densidad"
+  ) + 
+  scale_color_manual(values = c("indianred1", "lightskyblue")) + 
+  scale_fill_manual(values = c("indianred1", "lightskyblue"))
 ```
+
+Time series using Epoch:
+```{r}
+ggplot(load_5rpsX2min) + 
+  geom_line(aes(x = timeStamp, y = Latency, color = source)) + 
+  facet_grid(source~.) +
+  labs(
+    title = "Serie de tiempo para la latencia [5rps/2min]", 
+    x = "Marca de tiempo [Unix timestamp]", 
+    y = "Latencia [ms]"
+  ) + 
+  scale_color_manual(values = c("indianred1", "lightskyblue"))
+
+ggplot(load_10rpsX2min) + 
+  geom_line(aes(x = timeStamp, y = Latency, color = source)) + 
+  facet_grid(source~.) +
+  labs(
+    title = "Serie de tiempo para la latencia [10rps/2min]", 
+    x = "Marca de tiempo [Unix timestamp]", 
+    y = "Latencia [ms]"
+  ) + 
+  scale_color_manual(values = c("indianred1", "lightskyblue"))
+```
+
 
 

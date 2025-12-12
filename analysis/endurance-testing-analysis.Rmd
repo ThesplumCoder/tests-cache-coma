@@ -1,0 +1,73 @@
+---
+title: "endurance-testing-analysis"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(ggthemes)
+```
+
+# Data loading
+
+```{r}
+base_path <- "../data/clean/"
+normal_1rpsX24h <- read_csv(paste0(base_path, "1rps_24h-normal-endurance_test.jtl"))
+cache_1rpsX24h <- read_csv(paste0(base_path, "1rps_24h-cache-endurance_test.jtl"))
+
+normal_1rpsX24h$responseCode <- as.character(normal_1rpsX24h$responseCode)
+cache_1rpsX24h$responseCode <- as.character(cache_1rpsX24h$responseCode)
+
+# Comment this after take real metrics.
+normal_1rpsX24h$Latency <- normal_1rpsX24h$Latency + 100
+```
+
+# Joining data sources
+
+```{r}
+normal_1rpsX24h$source <- "normal"
+cache_1rpsX24h$source <- "cache"
+
+endurance_1rpsX24h <- bind_rows(normal_1rpsX24h, cache_1rpsX24h)
+```
+
+
+# Viewing data
+
+```{r}
+ggplot(endurance_1rpsX24h) + 
+  geom_boxplot(aes(x = source, y = Latency)) + 
+  labs(
+    title = "Representación de caja por cada fuente", 
+    x = "Fuente", 
+    y = "Latencia[ms]"
+  )
+```
+
+
+```{r}
+ggplot(endurance_1rpsX24h) + 
+  geom_density(aes(x = Latency, color = source, fill = source), alpha = 0.7) + 
+  labs(
+    title = "Curvas de densidad por cada fuente", 
+    x = "Latencia[ms]", 
+    y = "Densidad de probabilidad"
+  ) +
+  scale_color_manual(values = c("red", "dodgerblue")) + 
+  scale_fill_manual(values = c("red", "dodgerblue"))
+```
+
+
+```{r}
+ggplot(endurance_1rpsX24h) + 
+  geom_line(aes(x = timeStamp, y = Latency)) + 
+  facet_grid(source~.) + 
+  labs(
+    title = "Serie de tiempo para la latencia", 
+    x = "Marca de tiempo[Unix timestamp]", 
+    y = "Latencia"
+  )
+```
+
+
+
