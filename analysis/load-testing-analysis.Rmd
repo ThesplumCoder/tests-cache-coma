@@ -29,7 +29,7 @@ cache_5rpsX2min$responseCode <- as.character(cache_5rpsX2min$responseCode)
 cache_10rpsX2min$responseCode <- as.character(cache_10rpsX2min$responseCode)
 
 # Comment this after take real metrics.
-cache_5rpsX2min$Latency <- cache_5rpsX2min$Latency - 100
+#cache_5rpsX2min$Latency <- cache_5rpsX2min$Latency - 100
 cache_10rpsX2min$Latency <- cache_10rpsX2min$Latency - 100
 ```
 
@@ -144,7 +144,7 @@ Time series using Epoch:
 ```{r}
 ggplot(load_5rpsX2min) + 
   geom_line(aes(x = timeStamp, y = Latency, color = source)) + 
-  facet_grid(source~.) +
+  facet_wrap(~source, nrow = 2, ncol = 1, scales = "free") + 
   labs(
     title = "Serie de tiempo para la latencia [5rps/2min]", 
     x = "Marca de tiempo [Unix timestamp]", 
@@ -154,7 +154,7 @@ ggplot(load_5rpsX2min) +
 
 ggplot(load_10rpsX2min) + 
   geom_line(aes(x = timeStamp, y = Latency, color = source)) + 
-  facet_grid(source~.) +
+  facet_wrap(~source, nrow = 2, ncol = 1, scales = "free") + 
   labs(
     title = "Serie de tiempo para la latencia [10rps/2min]", 
     x = "Marca de tiempo [Unix timestamp]", 
